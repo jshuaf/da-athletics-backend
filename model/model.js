@@ -3,6 +3,8 @@ const Team = require('./Team');
 const Event = require('./Event');
 const Program = require('./Program');
 
+mongoose.set('debug', true);
+
 mongoose.Promise = global.Promise;
 
 exports.connect = () => mongoose.connect('mongodb://localhost:27017/da-athletics');
@@ -10,6 +12,10 @@ exports.connect = () => mongoose.connect('mongodb://localhost:27017/da-athletics
 exports.addEvent = data => (new Event(data)).save();
 
 exports.findEvent = data => Event.findOne(data).exec();
+
+exports.findEventsByDate = ((start, end) =>
+	Event.find({ date: { $lte: end, $gte: start, }, }).lean().exec()
+);
 
 exports.updateEvent = (id, toUpdate) =>
 	Event.findByIdAndUpdate(id, toUpdate, { new: true, }).exec();
