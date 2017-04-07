@@ -13,16 +13,41 @@ const getEventsSchema = {
 app.get('/events', (req, res) => {
 	const { error, } = Joi.validate(req.query, getEventsSchema, { presence: 'required', });
 	if (error) res.status(400).end();
-
+	console.log('Query for events.', req.query);
 	connected.then(() =>
 		model.findEventsByDate(req.query.startDate, req.query.endDate)
 	).then((data) => {
-		res.status(200).json(data).end();
+		console.log('Query successful.');
+		res.status(200).json(data);
 	})
-	.then(() => model.close())
 	.catch((err) => {
 		console.log(err);
-		model.close();
+	});
+});
+
+app.get('/programs/all', (req, res) => {
+	console.log('Query for all programs.');
+	connected.then(() =>
+		model.findAllPrograms()
+	).then((data) => {
+		console.log('Query successful.');
+		res.status(200).json(data);
+	})
+	.catch((err) => {
+		console.log(err);
+	});
+});
+
+app.get('/teams/all', (req, res) => {
+	console.log('Query for all teams.');
+	connected.then(() =>
+		model.findAllTeams()
+	).then((data) => {
+		console.log('Query successful.');
+		res.status(200).json(data);
+	})
+	.catch((err) => {
+		console.log(err);
 	});
 });
 

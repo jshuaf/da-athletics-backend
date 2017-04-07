@@ -82,6 +82,8 @@ function refreshAllEvents($) {
 					eventData.score2 = parseInt(scoreData[3], 10);
 				} else if (text.indexOf('Cancel') >= 0) {
 					eventData.status = 'Cancelled';
+				} else if (text.indexOf('Scrimmage') >= 0) {
+					eventData.status = 'Scrimmage';
 				} else {
 					eventData.status = 'Other';
 				}
@@ -104,7 +106,7 @@ function refreshAllEvents($) {
 }
 
 model.connect().then(() => {
-	requests.get('https://deerfield.edu/athletics/events/2016')
+	requests.get('https://deerfield.edu/athletics/events/2016', { update: true, })
 	.then(({ data, }) => {
 		refreshAllEvents(cheerio.load(data))
 		.then(() => {
