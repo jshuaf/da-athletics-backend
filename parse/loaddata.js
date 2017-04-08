@@ -106,7 +106,7 @@ function refreshAllEvents($) {
 }
 
 model.connect().then(() => {
-	requests.get('https://deerfield.edu/athletics/events/2016', { update: true, })
+	requests.get('https://deerfield.edu/athletics/events/2012', { update: true, })
 	.then(({ data, }) => {
 		refreshAllEvents(cheerio.load(data))
 		.then(() => {
