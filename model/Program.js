@@ -9,6 +9,7 @@ const ProgramSchema = Schema({
 	teams: [{ type: Schema.Types.ObjectId, ref: 'Team', }, ],
 	name: { type: String, unique: true, required: true, },
 	url: { type: String, unique: true, required: true, },
+	term: { type: String, required: true, },
 });
 
 ProgramSchema.plugin(uniqueValidator);

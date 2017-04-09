@@ -10,7 +10,7 @@
 		
 		<meta name="viewport" content="width=device-width">		
 
-		<title>Baseball: Varsity (current season) | Deerfield Academy</title>
+		<title>Soccer, Girls: Varsity (current season) | Deerfield Academy</title>
 
 		<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/688814/717868/css/fonts.css" />
 		
@@ -24,7 +24,7 @@
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Deerfield Academy &raquo; Feed" href="https://deerfield.edu/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Deerfield Academy &raquo; Comments Feed" href="https://deerfield.edu/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Deerfield Academy &raquo; Baseball: Varsity Sport or Team Feed" href="https://deerfield.edu/athletics/teams/varsity-baseball/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Deerfield Academy &raquo; Soccer, Girls: Varsity Sport or Team Feed" href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/feed/" />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/deerfield.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=fbb42ecf5a00e689c3b4976482f94e4c"}};
 			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -55,7 +55,7 @@ img.emoji {
 <link rel='stylesheet' id='dfa-responsive-structure-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/responsive-structure.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
 <link rel='stylesheet' id='dfa-faq-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/faq.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
 <link rel='stylesheet' id='dfa-alumni-event-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/alumni-event.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
-<link rel='stylesheet' id='user-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/user/styles.css?ver=1490972335' type='text/css' media='all' />
+<link rel='stylesheet' id='user-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/user/styles.css?ver=1491709291' type='text/css' media='all' />
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
@@ -71,25 +71,25 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var WuWidget = {"apiKey":"3ffab52910ec1a0e","_wpnonce":"92cf194f80","ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","is_admin":"","subdomain":"www"};
+var WuWidget = {"apiKey":"3ffab52910ec1a0e","_wpnonce":"7477dce4b9","ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","is_admin":"","subdomain":"www"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/plugins/wunderground/assets/js/widget.min.js?ver=2.1.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var uf_pulse_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"7dafd4f173"};
+var uf_pulse_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"63b3309fc9"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/plugins/uf-pulse/js/ajax.js?ver=0.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var uf_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"6c23a03437"};
+var uf_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"1f9b49b1e0"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/ajax-directory.js?ver=fbb42ecf5a00e689c3b4976482f94e4c'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rate_faq_nonce":"494f84dd92"};
+var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rate_faq_nonce":"ae57ab0010"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/ajax.js?ver=fbb42ecf5a00e689c3b4976482f94e4c'></script>
@@ -125,7 +125,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 	for (var i = 0; i < evts.length; i++) {
 		addEvent(evts[i], logHuman);
 	}
-})('//deerfield.edu/?wordfence_logHuman=1&hid=FD4DFB744DCA1CB729692D7EC2411EFA');
+})('//deerfield.edu/?wordfence_logHuman=1&hid=3A2FDA5906EE9703D14ECEBD1CC0F18A');
 </script>
 		<!-- lightbox -->
 		<script src="https://deerfield.edu/wp-content/themes/deerfield_1_3/js/modernizr.custom.js"></script>
@@ -148,7 +148,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 	</head>
 
 	
-	<body id="body" class="archive tax-team term-varsity-baseball term-205">
+	<body id="body" class="archive tax-team term-varsity-girls-soccer term-234">
 
 		
 		
@@ -244,7 +244,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 </li>
 	<li id="menu-item-10226854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current-menu-ancestor level-1 menu-item-10226854"><a href="https://deerfield.edu/athletics/teams/">Teams</a>
 	<ul class="sub-menu">
-		<li id="menu-item-10226845" class="label menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-2 menu-item-10226845"><a href="#">Fall</a>
+		<li id="menu-item-10226845" class="label menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children current-menu-parent current-menu-ancestor level-2 menu-item-10226845"><a href="#">Fall</a>
 		<ul class="sub-menu">
 			<li id="menu-item-10226842" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226842"><a href="https://deerfield.edu/athletics/teams/cross-country-boys/">Cross Country, Boys</a></li>
 			<li id="menu-item-10237866" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237866"><a href="https://deerfield.edu/athletics/teams/cross-country-girls/">Cross Country, Girls</a></li>
@@ -252,7 +252,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 			<li id="menu-item-10226843" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226843"><a href="https://deerfield.edu/athletics/teams/field-hockey/">Field Hockey</a></li>
 			<li id="menu-item-10226844" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226844"><a href="https://deerfield.edu/athletics/teams/football/">Football</a></li>
 			<li id="menu-item-10226841" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226841"><a href="https://deerfield.edu/athletics/teams/soccer-boys/">Soccer, Boys</a></li>
-			<li id="menu-item-10237867" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237867"><a href="https://deerfield.edu/athletics/teams/soccer-girls/">Soccer, Girls</a></li>
+			<li id="menu-item-10237867" class="menu-item menu-item-type-taxonomy menu-item-object-team current-team-ancestor current-menu-item level-3 menu-item-10237867"><a href="https://deerfield.edu/athletics/teams/soccer-girls/">Soccer, Girls</a></li>
 			<li id="menu-item-10226840" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226840"><a href="https://deerfield.edu/athletics/teams/volleyball/">Volleyball</a></li>
 			<li id="menu-item-10237868" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237868"><a href="https://deerfield.edu/athletics/teams/water-polo-boys/">Water Polo, Boys</a></li>
 		</ul>
@@ -272,9 +272,9 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 			<li id="menu-item-10226834" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226834"><a href="https://deerfield.edu/athletics/teams/wrestling-coed/">Wrestling, Coed</a></li>
 		</ul>
 </li>
-		<li id="menu-item-10226847" class="label menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children current-menu-parent current-menu-ancestor level-2 menu-item-10226847"><a href="#">Spring</a>
+		<li id="menu-item-10226847" class="label menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-2 menu-item-10226847"><a href="#">Spring</a>
 		<ul class="sub-menu">
-			<li id="menu-item-10226833" class="menu-item menu-item-type-taxonomy menu-item-object-team current-team-ancestor current-menu-item level-3 menu-item-10226833"><a href="https://deerfield.edu/athletics/teams/baseball/">Baseball</a></li>
+			<li id="menu-item-10226833" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226833"><a href="https://deerfield.edu/athletics/teams/baseball/">Baseball</a></li>
 			<li id="menu-item-10226832" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226832"><a href="https://deerfield.edu/athletics/teams/crew-boys/">Crew, Boys</a></li>
 			<li id="menu-item-10237879" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237879"><a href="https://deerfield.edu/athletics/teams/crew-girls/">Crew, Girls</a></li>
 			<li id="menu-item-10237889" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237889"><a href="https://deerfield.edu/athletics/teams/crew-coed/">Crew, Coed</a></li>
@@ -322,7 +322,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 
 	<header class="template-header">
 		<h1 class="h-a">
-			Baseball: Varsity		</h1>
+			Soccer, Girls: Varsity		</h1>
 		<div class="h-menu-container">
 			
 			
@@ -333,16 +333,20 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 				</li>
 				
 									<li class="">
-						<a href="https://deerfield.edu/athletics/teams/baseball/">
+						<a href="https://deerfield.edu/athletics/teams/soccer-girls/">
 							Overview						</a>
 					</li>
 									<li class="h-menu-active">
-						<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
+						<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
 							 Varsity						</a>
 					</li>
 									<li class="">
-						<a href="https://deerfield.edu/athletics/teams/junior-varsity-baseball/">
+						<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-soccer/">
 							 Junior Varsity						</a>
+					</li>
+									<li class="">
+						<a href="https://deerfield.edu/athletics/teams/reserve-girls-soccer/">
+							 Reserve						</a>
 					</li>
 				
 			</ul>
@@ -352,7 +356,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 				<ul class="h-menu h-archive-menu" >
 										<!--
 					<li class="">
-						<a href="https://deerfield.edu/athletics/teams/varsity-baseball/events/">
+						<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/events/">
 							Schedule Overview
 						</a>
 					</li>
@@ -360,31 +364,31 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 					
 													
 						<li class="">
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/events/2016">
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/events/2016">
 								2016&ndash;17							</a>
 						</li>
 
 													
 						<li class="">
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/events/2015">
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/events/2015">
 								2015&ndash;16							</a>
 						</li>
 
 													
 						<li class="">
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/events/2014">
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/events/2014">
 								2014&ndash;15							</a>
 						</li>
 
 													
 						<li class="">
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/events/2013">
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/events/2013">
 								2013&ndash;14							</a>
 						</li>
 
 													
 						<li class="">
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/events/2012">
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/events/2012">
 								2012&ndash;13							</a>
 						</li>
 
@@ -403,7 +407,12 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		<div class="content-column main-column " >
 			
 			
-				
+								
+					<h2 class="heading" style="margin-bottom: 0px;">Record this season</h2>
+					<p>
+						4 (win) &ndash; 9 (loss) &ndash; 2 (tie)					</p>
+
+						
 		
 					<div class="embed-container embed-content-container ">
 				<ul class="embed-menu embed-content-menu">
@@ -475,159 +484,27 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		
 	</th>
 </tr>																	
-<tr id="post-10244520" class=" event-row athletic-event-row post-10244520 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-belmont-hill-s" >
+<tr id="post-10236147" class=" event-row athletic-event-row post-10236147 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-soccer opponent-da-playday" >
 	<td class="athletic-event-date">
-		Apr 1, '17	</td>
-	<td class="athletic-event-time">
-		1:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Belmont Hill (S)	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-belmont-hill-s/10244520/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244521" class=" event-row athletic-event-row post-10244521 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-loomis" >
-	<td class="athletic-event-date">
-		Apr 5, '17	</td>
-	<td class="athletic-event-time">
-		3:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Loomis	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-loomis-2/10244521/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244523" class=" event-row athletic-event-row post-10244523 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-cushing" >
-	<td class="athletic-event-date">
-		Apr 8, '17	</td>
-	<td class="athletic-event-time">
-		1:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Cushing	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-cushing/10244523/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244522" class=" event-row athletic-event-row post-10244522 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-taft" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		3:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Taft	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-taft/10244522/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244524" class=" event-row athletic-event-row post-10244524 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-nmh" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
+		Sep 10, '16	</td>
 	<td class="athletic-event-time">
 		2:30 pm	</td>
 			<td class="event-details">
 			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
 			
 
 		</td>
 	
 	<td class="event-opponent">
-		NMH	</td>
+		DA Playday	</td>
 	<td class="event-location">
 		Home	</td>
 	<td class="athletic-event-status">
 		 		
  				
-					
+			Scrimmage with Williston, KUA, & NMH: No results recorded		
 		
 		
 		
@@ -636,184 +513,162 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-nmh/10244524/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-vs-da-playday/10236147/ics">iCal</a>
 	</td>
 </tr>
 																	
-<tr id="post-10244525" class=" event-row athletic-event-row post-10244525 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-worcester" >
+<tr id="post-10236148" class=" event-row athletic-event-row post-10236148 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-brooks-s" >
 	<td class="athletic-event-date">
-		Apr 19, '17	</td>
+		Sep 14, '16	</td>
+	<td class="athletic-event-time">
+		3:45 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Brooks (S)	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Scrimmage: No scores reported.		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-vs-brooks-s/10236148/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236149" class=" event-row athletic-event-row loss post-10236149 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-milton athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Sep 17, '16	</td>
+	<td class="athletic-event-time">
+		2:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Milton	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-loses-to-milton/10236149/" >
+									Loss - 0-2
+Click score for more			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-loses-to-milton/10236149/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236150" class=" event-row athletic-event-row win post-10236150 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-westminster athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Sep 21, '16	</td>
+	<td class="athletic-event-time">
+		3:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Westminster	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-defeats-westminster/10236150/" >
+									Win - 5-2
+Click here for game summary			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-defeats-westminster/10236150/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236151" class=" event-row athletic-event-row loss post-10236151 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-soccer opponent-exeter athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Sep 24, '16	</td>
+	<td class="athletic-event-time">
+		2:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Exeter	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-loses-to-exeter/10236151/" >
+									Loss - 0-2			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-loses-to-exeter/10236151/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236152" class=" event-row athletic-event-row loss post-10236152 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-worcester athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Sep 28, '16	</td>
 	<td class="athletic-event-time">
 		4:00 pm	</td>
 			<td class="event-details">
 			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Worcester	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-worcester/10244525/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244526" class=" event-row athletic-event-row post-10244526 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-tabor-dh" >
-	<td class="athletic-event-date">
-		Apr 22, '17	</td>
-	<td class="athletic-event-time">
-		1:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Tabor (DH)	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-tabor-dh-2/10244526/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244527" class=" event-row athletic-event-row post-10244527 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-choate" >
-	<td class="athletic-event-date">
-		Apr 26, '17	</td>
-	<td class="athletic-event-time">
-		3:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Choate	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-choate/10244527/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244529" class=" event-row athletic-event-row post-10244529 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-exeter-dh" >
-	<td class="athletic-event-date">
-		Apr 29, '17	</td>
-	<td class="athletic-event-time">
-		1:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Exeter (DH)	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-exeter-dh-2/10244529/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244528" class=" event-row athletic-event-row post-10244528 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-cushing" >
-	<td class="athletic-event-date">
-		May 3, '17	</td>
-	<td class="athletic-event-time">
-		3:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Cushing	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/baseball-varsity-vs-cushing-2/10244528/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244530" class=" event-row athletic-event-row post-10244530 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-worcester" >
-	<td class="athletic-event-date">
-		May 6, '17	</td>
-	<td class="athletic-event-time">
-		3:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
 			
 
 		</td>
@@ -825,40 +680,10 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 	<td class="athletic-event-status">
 		 		
  				
-					
+			<a href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-loses-to-worcester/10236152/" >
+									Loss - 0-7			
+							</a>
 		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/baseball-varsity-vs-worcester-2/10244530/ics">iCal</a>
-	</td>
-</tr>
-																	
-<tr id="post-10244531" class=" event-row athletic-event-row post-10244531 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-nmh" >
-	<td class="athletic-event-date">
-		May 8, '17	</td>
-	<td class="athletic-event-time">
-		4:15 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		NMH	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-					
 		
 		
 		
@@ -867,31 +692,31 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/baseball-varsity-vs-nmh-2/10244531/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/09/soccer-girls-varsity-loses-to-worcester/10236152/ics">iCal</a>
 	</td>
 </tr>
 																	
-<tr id="post-10244532" class=" event-row athletic-event-row post-10244532 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-andover-dh" >
+<tr id="post-10236153" class=" event-row athletic-event-row live-stream loss post-10236153 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-soccer opponent-pomfret athletic-event-status-live-stream athletic-event-status-loss" >
 	<td class="athletic-event-date">
-		May 13, '17	</td>
+		Oct 1, '16	</td>
 	<td class="athletic-event-time">
-		1:00 pm	</td>
+		4:00 pm	</td>
 			<td class="event-details">
 			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
 			
 
 		</td>
 	
 	<td class="event-opponent">
-		Andover (DH)	</td>
+		Pomfret	</td>
 	<td class="event-location">
 		Home	</td>
 	<td class="athletic-event-status">
 		 		
  				
-					
+			Loss - 0-4		
 		
 		
 		
@@ -900,19 +725,19 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/baseball-varsity-vs-andover-dh-2/10244532/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsitypomfret/10236153/ics">iCal</a>
 	</td>
 </tr>
 																	
-<tr id="post-10244533" class=" event-row athletic-event-row post-10244533 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-williston" >
+<tr id="post-10236154" class=" event-row athletic-event-row live-stream win post-10236154 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-soccer opponent-williston athletic-event-status-live-stream athletic-event-status-win" >
 	<td class="athletic-event-date">
-		May 15, '17	</td>
+		Oct 5, '16	</td>
 	<td class="athletic-event-time">
-		4:30 pm	</td>
+		3:00 pm	</td>
 			<td class="event-details">
 			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
 			
 
 		</td>
@@ -924,7 +749,10 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 	<td class="athletic-event-status">
 		 		
  				
-					
+			<a href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsitywilliston/10236154/" >
+									Win - 3-0			
+							</a>
+		
 		
 		
 		
@@ -933,31 +761,34 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/baseball-varsity-vs-williston/10244533/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsitywilliston/10236154/ics">iCal</a>
 	</td>
 </tr>
 																	
-<tr id="post-10244535" class=" event-row athletic-event-row post-10244535 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-avon" >
+<tr id="post-10236155" class=" event-row athletic-event-row win post-10236155 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-nmh athletic-event-status-win" >
 	<td class="athletic-event-date">
-		May 17, '17	</td>
+		Oct 12, '16	</td>
 	<td class="athletic-event-time">
-		3:30 pm	</td>
+		2:30 pm	</td>
 			<td class="event-details">
 			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
 			
 
 		</td>
 	
 	<td class="event-opponent">
-		Avon	</td>
+		NMH	</td>
 	<td class="event-location">
 		Away	</td>
 	<td class="athletic-event-status">
 		 		
  				
-					
+			<a href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsity-defeats-nmh/10236155/" >
+									Win - 3-2			
+							</a>
+		
 		
 		
 		
@@ -966,31 +797,34 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/baseball-varsity-vs-avon/10244535/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsity-defeats-nmh/10236155/ics">iCal</a>
 	</td>
 </tr>
 																	
-<tr id="post-10244534" class=" event-row athletic-event-row post-10244534 athletic-event type-athletic-event status-publish hentry location-away location-brown-univ team-varsity-baseball opponent-central-ne-tournament" >
+<tr id="post-10236156" class=" event-row athletic-event-row loss post-10236156 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-soccer opponent-loomis athletic-event-status-loss" >
 	<td class="athletic-event-date">
-		May 20, '17	</td>
+		Oct 15, '16	</td>
 	<td class="athletic-event-time">
-		TBD	</td>
+		3:00 pm	</td>
 			<td class="event-details">
 			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
 			
 
 		</td>
 	
 	<td class="event-opponent">
-		Central NE Tournament	</td>
+		Loomis	</td>
 	<td class="event-location">
-		Away, Brown Univ.	</td>
+		Home	</td>
 	<td class="athletic-event-status">
 		 		
  				
-					
+			<a href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsity-loses-to-loomis/10236156/" >
+									Loss - 0-3			
+							</a>
+		
 		
 		
 		
@@ -999,7 +833,244 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/baseball-varsity-vs-central-ne-tournament-2/10244534/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsity-loses-to-loomis/10236156/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236157" class=" event-row athletic-event-row loss post-10236157 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-taft athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Oct 22, '16	</td>
+	<td class="athletic-event-time">
+		3:45 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Taft	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsity-loses-to-taft/10236157/" >
+									Loss - 1-7			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsity-loses-to-taft/10236157/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236158" class=" event-row athletic-event-row tie post-10236158 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-vermont athletic-event-status-tie" >
+	<td class="athletic-event-date">
+		Oct 26, '16	</td>
+	<td class="athletic-event-time">
+		3:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Vermont	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Tie - 0-0		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsity-ties-vermont/10236158/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236159" class=" event-row athletic-event-row loss post-10236159 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-andover athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Oct 29, '16	</td>
+	<td class="athletic-event-time">
+		3:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Andover	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Loss - 0-1		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/10/soccer-girls-varsity-loses-to-andover/10236159/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236160" class=" event-row athletic-event-row win post-10236160 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-suffield athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Nov 2, '16	</td>
+	<td class="athletic-event-time">
+		3:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Suffield	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2016/11/soccer-girls-varsity-defeats-suffield/10236160/" >
+									Win - 4-2			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/11/soccer-girls-varsity-defeats-suffield/10236160/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236161" class=" event-row athletic-event-row tie post-10236161 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-soccer opponent-hotchkiss athletic-event-status-tie" >
+	<td class="athletic-event-date">
+		Nov 6, '16	</td>
+	<td class="athletic-event-time">
+		1:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Hotchkiss	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Tie - 1-1		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/11/soccer-girls-varsity-ties-hotchkiss/10236161/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236162" class=" event-row athletic-event-row loss post-10236162 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-soccer opponent-wilbraham-monson athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Nov 9, '16	</td>
+	<td class="athletic-event-time">
+		2:45 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Wilbraham &amp; Monson	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Loss - 1-2		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/11/soccer-girls-varsity-loses-to-wilbraham-monson/10236162/ics">iCal</a>
+	</td>
+</tr>
+																	
+<tr id="post-10236163" class=" event-row athletic-event-row loss post-10236163 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-soccer opponent-choate athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Nov 12, '16	</td>
+	<td class="athletic-event-time">
+		11:30 am	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-soccer/">
+					Soccer, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Choate	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Loss - 2-5		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2016/11/soccer-girls-varsity-loses-to-choate-2/10236163/ics">iCal</a>
 	</td>
 </tr>
 															</table>
@@ -1012,193 +1083,169 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 
 									<article id="roster" class=" embed-content">
 						<div id="roster" class="content-block subsection-content ">
-							<table width="399">
+							<table width="477">
 <tbody>
 <tr>
-<td width="25">#</td>
-<td width="125">Name</td>
-<td width="45">Class</td>
-<td width="61">Position</td>
-<td width="143">Hometown</td>
+<td width="146"><strong>Name</strong></td>
+<td width="60"><strong>Class</strong></td>
+<td width="137"><strong>Position</strong></td>
+<td width="134"><strong>Hometown</strong></td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>1</td>
-<td>Jacob Presnal</td>
-<td>2018</td>
-<td>2B/SS</td>
-<td>Ludlow, MA</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Chad Cramer</td>
-<td>2016</td>
-<td>1B</td>
-<td>Scottsdale, AZ</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Sameer Sharma</td>
-<td>2018</td>
-<td>OF</td>
-<td>Ashland, MA</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Javier Irizarry</td>
+<td>Bailey Cheetham</td>
 <td>2019</td>
-<td>3B</td>
-<td>Amherst, MA</td>
+<td>Midfielder</td>
+<td>Lake Oswego, OR</td>
 </tr>
 <tr>
-<td>5</td>
-<td>Sammy St. Jean</td>
+<td>Nicole Da Costa</td>
+<td>2019</td>
+<td>Defender</td>
+<td>Macungie, PA</td>
+</tr>
+<tr>
+<td>Erin DeMarco</td>
+<td>2019</td>
+<td>Goalkeeper</td>
+<td>Westford, MA</td>
+</tr>
+<tr>
+<td>Ali Dougal</td>
 <td>2018</td>
-<td>SS/P</td>
-<td>West Springfield, MA</td>
+<td>Forward</td>
+<td>Indian Orchard, MA</td>
 </tr>
 <tr>
-<td>6</td>
-<td>Charlie Carpenter*</td>
-<td>2016</td>
-<td>P/1B</td>
-<td>Bedford, NY</td>
+<td>Mae Emerson</td>
+<td>2019</td>
+<td>Defender</td>
+<td>Deerfield, MA</td>
 </tr>
 <tr>
-<td>7</td>
-<td>Drew Rapoza*</td>
-<td>2016</td>
-<td>OF/P</td>
-<td>Somerset, MA</td>
+<td>Molly Fischer</td>
+<td>2020</td>
+<td>Goalkeeper</td>
+<td>Franklin, MA</td>
 </tr>
 <tr>
-<td>8</td>
-<td>Dylan Presnal*</td>
-<td>2017</td>
-<td>P/SS</td>
-<td>Ludlow, MA</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Jared Pantalony</td>
-<td>2018</td>
-<td>P/OF</td>
-<td>Brooklyn, NY</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Will Suter</td>
-<td>2017</td>
-<td>P</td>
-<td>Lake Forest, IL</td>
-</tr>
-<tr>
-<td>11</td>
-<td>Owen MacPhee</td>
-<td>2018</td>
-<td>C/OF</td>
-<td>Royalston, MA</td>
-</tr>
-<tr>
-<td>12</td>
-<td>Griffin McDowell</td>
-<td>2018</td>
-<td>P/OF</td>
-<td>Vienna, VA</td>
-</tr>
-<tr>
-<td>13</td>
-<td>Jack Kilgallon</td>
-<td>2016</td>
-<td>2B</td>
-<td>Bedford Hills, NY</td>
-</tr>
-<tr>
-<td>14</td>
-<td>Nick Solberg</td>
-<td>2018</td>
-<td>P</td>
-<td>Santa Monica, CA</td>
-</tr>
-<tr>
-<td>15</td>
-<td>John Esposito</td>
-<td>2017</td>
-<td>C</td>
+<td>Annabel Gerber</td>
+<td>2020</td>
+<td>Defender/Midfielder</td>
 <td>Greenwich, CT</td>
 </tr>
 <tr>
-<td>16</td>
-<td>Colman Shea</td>
+<td>Megan Graves</td>
 <td>2018</td>
-<td>3B/P</td>
-<td>Boston, MA</td>
+<td>Forward</td>
+<td>Deerfield, MA</td>
 </tr>
 <tr>
-<td>17</td>
-<td>Cameron Snow</td>
-<td>2018</td>
-<td>1B</td>
-<td>Winchester, MA</td>
-</tr>
-<tr>
-<td>21</td>
-<td>Brian Persons</td>
-<td>2016</td>
-<td>C</td>
-<td>South Deerfield, MA</td>
-</tr>
-<tr>
-<td>22</td>
-<td>Rory Flaherty</td>
-<td>2016</td>
-<td>OF</td>
-<td>Saratoga Springs, NY</td>
-</tr>
-<tr>
-<td>24</td>
-<td>Beau Dana</td>
+<td>Meghan Halloran</td>
 <td>2017</td>
-<td>P/OF</td>
-<td>Marblehead, MA</td>
+<td>Midfielder</td>
+<td>Darien, CT</td>
 </tr>
 <tr>
-<td></td>
-<td>Helen Hicks</td>
-<td>2018</td>
-<td>Manager</td>
-<td>Jacksonville, FL</td>
+<td>Valerie Hetherington</td>
+<td>2019</td>
+<td>Goalkeeper</td>
+<td>Bozeman, MT</td>
 </tr>
 <tr>
-<td></td>
-<td>Amelia Evans</td>
+<td>Brenna Hoar</td>
 <td>2018</td>
+<td>Forward</td>
+<td>Ludlow, MA</td>
+</tr>
+<tr>
+<td>Annie Ilsley</td>
+<td>2018</td>
+<td>Forward</td>
+<td>Lexington, MA</td>
+</tr>
+<tr>
+<td>Audrey McManemin*</td>
+<td>2017</td>
+<td>Defender</td>
+<td>Dallas, TX</td>
+</tr>
+<tr>
+<td>Jacqueline Minor*</td>
+<td>2017</td>
+<td>Midfielder</td>
+<td>San Francisco, CA</td>
+</tr>
+<tr>
+<td>Alli Norris</td>
+<td>2018</td>
+<td>Defender/Midfielder</td>
+<td>Avon, CT</td>
+</tr>
+<tr>
+<td>Jill O'Connor</td>
+<td>2019</td>
+<td>Defender</td>
+<td>Amherst, MA</td>
+</tr>
+<tr>
+<td>Sophie Opler</td>
+<td>2019</td>
+<td>Midfielder</td>
+<td>Hinsdale, IL</td>
+</tr>
+<tr>
+<td>Felicia Renelus</td>
+<td>2017</td>
+<td>Defender</td>
+<td>Valley Stream, NY</td>
+</tr>
+<tr>
+<td>Kimberly Stafford</td>
+<td>2019</td>
+<td>Midfielder</td>
+<td>Lake Forest, IL</td>
+</tr>
+<tr>
+<td>Maddie Wasson</td>
+<td>2018</td>
+<td>Forward</td>
+<td>Chapel Hill, NC</td>
+</tr>
+<tr>
+<td>Margaret Williams</td>
+<td>2019</td>
+<td>Midfielder</td>
+<td>Greenwich, CT</td>
+</tr>
+<tr>
+<td>Jackson Mannix</td>
+<td>2017</td>
 <td>Manager</td>
-<td>Laguna Niguel, CA</td>
+<td>Southborough, MA</td>
+</tr>
+<tr>
+<td>Billy Lahart</td>
+<td>2017</td>
+<td>Manager</td>
+<td>Franklin, MA</td>
 </tr>
 </tbody>
 </table>
-*Denotes captain						</div>
+*Denotes Captain						</div>
 					</article>
 
 									<article id="coaching-staff" class=" embed-content">
 						<ul class="users-list">
 													<li class="user-badge">
 
-<a href="https://deerfield.edu/directory/staff/saugust/" class="user-profile-link" >
+<a href="https://deerfield.edu/directory/staff/hvalk/" class="user-profile-link" >
 
 	<div class="user-avatar user-badge-avatar" >
-		<img src="https://deerfield.edu/wp-content/uploads/2016/08/Photo1-150x150.jpg" width="96" height="96" alt="Steven August" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 alignnone photo" /> 
+		<img src="https://deerfield.edu/wp-content/uploads/2013/11/valk-150x150.jpg" width="96" height="96" alt="Heidi Valk" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 alignnone photo" /> 
 	</div>
 	<div class="user-info user-badge-info">
 		<p class="user-name" >
-			Steven August		</p>
+			Heidi Valk		</p>
 
 		<p class="user-title" >
 							Head Coach
@@ -1208,20 +1255,18 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 
 </a>	
 
-<p class="MsoNormal">Steve August has worked in baseball since 1990. He served the Boston Red Sox as Traveling Secretary from 1990 to 1995 and as Assistant General Manager through 1998.  He worked with players and coaches at all levels, traveled with the team, and managed baseball operations. Prior to his career in baseball, Steve taught English and coached at independent schools until 1985.  He earned his B.A. in English from the University of Massachusetts, and a Masters from Harvard University.</p>
-<p class="MsoNormal">From 2000-2001 Steve co-directed Wolfe Associates, a baseball and hockey agency.  In 2003 Steve founded the New England Baseball Club, (<i>The</i> <i>Ruffnecks</i>).  The Ruffnecks have earned a reputation as a nationally recognized College Development Baseball Program.  In 2010 Steve was awarded the John Mocny Award for Distinguished Service by the Continental Amateur Baseball Association.  In 2011 the Ruffnecks were named National Program of the Year.  Steve was also honored by the Massachusetts High School Baseball Coaches Association in 2012.  He serves the baseball community as an advocate for players in the college recruiting process, working with student-athletes who aspire to play in college.  Steve spearheaded the construction and was the CEO of the New England Baseball Complex, the only turfed baseball facility of its kind in the Northeast. </p>
-<p>&nbsp;</p>
-<p class="MsoNormal">He and his wife, Anne, have two children, Sam and Jennifer, and a grandson, Niko.  </p></li>
+<p>Heidi Valk has cultivated the girls soccer program at Deerfield from its roots. Under her tutelage, the squad has amassed a 109-60 record. In 1996, the girls posted an undefeated season, captured the Western New England title, and finished second in the New England Prep School tournament.</p>
+<p>Before coming to Deerfield, Heidi coached the JV soccer and lacrosse teams at the Nichols School in Buffalo, NY. She also held coaching positions in those sports at St. Paul’s School in New Hampshire, where she was an intern. Heidi played both soccer and lacrosse for three years at Mount Holyoke College; as an exchange student, she contributed to both teams in her junior year at Bowdoin College in Maine.</p></li>
 													<li class="user-badge">
 
-<a href="https://deerfield.edu/directory/staff/mdancer/" class="user-profile-link" >
+<a href="https://deerfield.edu/directory/staff/cbarbato/" class="user-profile-link" >
 
 	<div class="user-avatar user-badge-avatar" >
-		<img src="https://deerfield.edu/wp-content/uploads/2013/12/DadTeaching1-150x150.jpg" width="96" height="96" alt="Marc Dancer" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 alignnone photo" /> 
+		<img src="https://deerfield.edu/wp-content/uploads/2014/01/blank-avatar.png" width="32" height="32" alt="" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo avatar-default" /> 
 	</div>
 	<div class="user-info user-badge-info">
 		<p class="user-name" >
-			Marc Dancer		</p>
+			Carly Barbato		</p>
 
 		<p class="user-title" >
 							Assistant Coach
@@ -1231,27 +1276,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 
 </a>	
 
-<p>After graduating from Deerfield in 1979, Marc Dancer spent a post-graduate year at Harrow School in England. He then earned his BS from St. Lawrence University in 1984, majoring in mathematics and music. Marc was subsequently awarded a Watson Fellowship to study change-ringing in the UK.</p></li>
-													<li class="user-badge">
-
-<a href="https://deerfield.edu/directory/staff/elopez/" class="user-profile-link" >
-
-	<div class="user-avatar user-badge-avatar" >
-		<img src="https://deerfield.edu/wp-content/uploads/2016/07/12374948_10153911353067125_4129709589471483313_o-150x150.jpg" width="96" height="96" alt="Edrik Lopez" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 alignnone photo" /> 
-	</div>
-	<div class="user-info user-badge-info">
-		<p class="user-name" >
-			Edrik Lopez		</p>
-
-		<p class="user-title" >
-							Assistant Coach
-					</p>
-
-	</div>
-
-</a>	
-
-<p>Dr. Lopez grew up playing baseball in Puerto Rico and Florida. He played high school baseball as a catcher. While pursuing his doctorate at the University of California at Berkeley, he played in San Francisco’s Adult Hardball League. Moreover, while finishing his dissertation at Columbia University, he played in New York City’s Men’s Adult Baseball League. During this time, he also coached baseball youth leagues. In essence, Dr. Lopez has never not played ball. In 2006, Dr. Lopez began grappling, training in the martial art of Brazilian jiu-jitsu. Jiu-jitsu mixes wrestling, judo, and ground grappling techniques to submit an opponent and winning a match by getting them to “tap out.” Dr. Lopez received his black belt from America Top Team mixed martial arts after ten years of continuous training. He has been teaching jiu-jitsu for the past four years. Dr. Lopez is looking forward to assisting the baseball and wrestling teams at Deerfield Academy.</p></li>
+</li>
 												</ul>
 					</article>
 									</section>
@@ -1269,7 +1294,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 	        	
         		<ul id="quicknav_menu">
                                                        
-                                                            <li class="quicknav_item"><a href="/login?redirect_to=/athletics/teams/varsity-baseball/" class="quicknav_btn" id="Login">Log In</a></li>
+                                                            <li class="quicknav_item"><a href="/login?redirect_to=/athletics/teams/varsity-girls-soccer/" class="quicknav_btn" id="Login">Log In</a></li>
                                                 
                         
 <!--                        <li class="quicknav_item"><a href="/connect" class="quicknav_btn" id="Social">Social</a></li> -->
@@ -1339,7 +1364,7 @@ var sb_instagram_js_options = {"sb_instagram_at":"218669987.97584da.9549820fdda3
 <script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/jquery.filterRow.js?ver=20130831'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/wp-embed.min.js?ver=fbb42ecf5a00e689c3b4976482f94e4c'></script>
       
-	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"683235856d","applicationID":"8444353","transactionName":"blBRNkcFXhAFUxAMWlcacgFBDV8NS0QFHVpXWl4bGBBVAgk=","queueTime":0,"applicationTime":8139,"atts":"QhdSQA8fTR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"683235856d","applicationID":"8444353","transactionName":"blBRNkcFXhAFUxAMWlcacgFBDV8NS0QFHVpXWl4bGBBVAgk=","queueTime":0,"applicationTime":1799,"atts":"QhdSQA8fTR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 
 </html>
 

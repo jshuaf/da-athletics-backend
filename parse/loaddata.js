@@ -1,9 +1,11 @@
 const cheerio = require('cheerio');
 const model = require('../model/model');
-const moment = require('moment');
+const moment = require('moment-timezone');
 const requests = require('../requests/requests');
 const co = require('co');
 const Promise = require('bluebird');
+
+moment.tz.setDefault('America/New_York');
 
 function addTeamFromData(url) {
 	return co(function* () {
@@ -14,11 +16,10 @@ function addTeamFromData(url) {
 		teamData.url = url;
 
 		const programName = $('.current-menu-item').text().trim();
-		const currentProgram = yield model.findProgram({ name: programName, });
 		const programURL = $('.current-menu-item').find('a').first().attr('href');
+		const term = $('.current-menu-item').parent().prev().text();
 
-		const program = currentProgram ||
-			(yield model.findOrAddProgram({ name: programName, url: programURL, }));
+		const program = yield model.findOrAddProgram({ name: programName, url: programURL, term, });
 		teamData.program = program._id;
 		const team = yield model.findOrAddTeam(teamData);
 		program.teams.push(team._id);
@@ -32,7 +33,7 @@ function addTeamFromData(url) {
 function refreshAllEvents($) {
 	const eventsTable = $('.event-archive-container');
 	return Promise.map(eventsTable.find('.athletic-event-row').toArray(), (event, i) => {
-		const eventData = { date: new Date(), };
+		const eventData = { date: new Date(0), };
 		eventData._id = $(event).attr('id').replace('post-', '');
 		const rawData = $(event).find('td').toArray().map(co.wrap(function* (eventDetail) {
 			const text = $(eventDetail).text().trim().replace(/\t/gi, '');
@@ -43,7 +44,7 @@ function refreshAllEvents($) {
 				eventData.date = moment(eventData.date).set({
 					year: date.year(),
 					month: date.month(),
-					day: date.day(),
+					date: date.date(),
 				}).toDate();
 				break;
 			}
@@ -59,8 +60,7 @@ function refreshAllEvents($) {
 			case 'event-details': {
 				const teamURL = $(eventDetail).find('a').first().attr('href');
 				if (!teamURL) break;
-				const currentTeam = yield model.findTeam({ url: teamURL, });
-				const team = currentTeam || (yield addTeamFromData(teamURL));
+				const team = yield addTeamFromData(teamURL);
 				eventData.team = team._id;
 				team.events.push(eventData._id);
 				yield team.save();
@@ -106,7 +106,7 @@ function refreshAllEvents($) {
 }
 
 model.connect().then(() => {
-	requests.get('https://deerfield.edu/athletics/events/2012', { update: true, })
+	requests.get('https://deerfield.edu/athletics/events/2016')
 	.then(({ data, }) => {
 		refreshAllEvents(cheerio.load(data))
 		.then(() => {

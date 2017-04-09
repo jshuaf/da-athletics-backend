@@ -13,7 +13,7 @@ exports.get = (url, options = {}) => {
 			const key = tools.random();
 			index[url] = key;
 			fs.writeFileSync(path.join(__dirname, 'index.json'), JSON.stringify(index));
-			fs.writeFileSync(path.join(__dirname, 'raw', `${tools.random()}.txt`), response.data);
+			fs.writeFileSync(path.join(__dirname, 'raw', `${key}.txt`), response.data);
 			return response;
 		});
 	}

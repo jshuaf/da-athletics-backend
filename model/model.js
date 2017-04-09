@@ -36,6 +36,9 @@ exports.addProgram = data => (new Program(data)).save();
 exports.findOrAddProgram = data =>
 	exports.findProgram(data).then(event => event || exports.addProgram(data));
 
+exports.updateOrAddProgram = data =>
+	exports.findByIdAndUpdate(data._id).then(event => event || exports.addProgram(data));
+
 exports.removeAllEvents = () => Event.remove({});
 
 exports.closeDatabase = () => mongoose.connection.close();
