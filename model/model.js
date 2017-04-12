@@ -33,11 +33,8 @@ exports.findAllPrograms = () => Program.find().lean().exec();
 
 exports.addProgram = data => (new Program(data)).save();
 
-exports.findOrAddProgram = data =>
-	exports.findProgram(data).then(event => event || exports.addProgram(data));
-
-exports.updateOrAddProgram = data =>
-	exports.findByIdAndUpdate(data._id).then(event => event || exports.addProgram(data));
+exports.updateProgram = (id, toUpdate) =>
+	Program.findByIdAndUpdate(id, toUpdate, { new: true, }).exec();
 
 exports.removeAllEvents = () => Event.remove({});
 

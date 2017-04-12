@@ -14,12 +14,23 @@ function addTeamFromData(url) {
 		const $ = cheerio.load(response.data);
 		teamData.level = $('.h-menu-active').text().trim();
 		teamData.url = url;
+		let programName;
+		let programURL;
+		let term;
+		if (url === 'https://deerfield.edu/athletics/teams/crew-coed-junior-varsity/') {
+			programName = 'Crew, Coed: Junior Varsity';
+			programURL = url;
+			term = 'Spring';
+		} else {
+			programName = $('.current-menu-item').text().trim();
+			programURL = $('.current-menu-item').find('a').first().attr('href');
+			term = $('.current-menu-item').parent().prev().text();
+		}
 
-		const programName = $('.current-menu-item').text().trim();
-		const programURL = $('.current-menu-item').find('a').first().attr('href');
-		const term = $('.current-menu-item').parent().prev().text();
-
-		const program = yield model.findOrAddProgram({ name: programName, url: programURL, term, });
+		const existingProgram = yield model.findProgram({ name: programName, url: programURL, });
+		const program = yield existingProgram
+			? model.updateProgram(existingProgram._id, { name: programName, url: programURL, term, })
+			: model.addProgram({ name: programName, url: programURL, term, });
 		teamData.program = program._id;
 		const team = yield model.findOrAddTeam(teamData);
 		program.teams.push(team._id);
