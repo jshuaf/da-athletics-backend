@@ -14,5 +14,4 @@ const TeamSchema = Schema({
 
 TeamSchema.plugin(uniqueValidator);
 
-
 module.exports = mongoose.model('Team', TeamSchema);

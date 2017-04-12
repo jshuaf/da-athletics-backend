@@ -5,17 +5,36 @@ const model = require('./model/model');
 const app = express();
 const connected = model.connect();
 
-const getEventsSchema = {
+const getEventsByDateSchema = {
 	startDate: Joi.date(),
 	endDate: Joi.date().min(Joi.ref('startDate')),
 };
 
-app.get('/events', (req, res) => {
-	const { error, } = Joi.validate(req.query, getEventsSchema, { presence: 'required', });
+app.get('/events/date', (req, res) => {
+	const { error, } = Joi.validate(req.query, getEventsByDateSchema, { presence: 'required', });
 	if (error) res.status(400).end();
-	console.log('Query for events.', req.query);
+	console.log('Query for events by date.', req.query);
 	connected.then(() =>
 		model.findEventsByDate(req.query.startDate, req.query.endDate)
+	).then((data) => {
+		console.log('Query successful.');
+		res.status(200).json(data);
+	})
+	.catch((err) => {
+		console.log(err);
+	});
+});
+
+const getEventsByTeamSchema = {
+	teamID: Joi.string(),
+};
+
+app.get('/events/team', (req, res) => {
+	const { error, } = Joi.validate(req.query, getEventsByTeamSchema, { presence: 'required', });
+	if (error) res.status(400).end();
+	console.log('Query for events by team.', req.query);
+	connected.then(() =>
+		model.findEventsByTeam(req.query.teamID)
 	).then((data) => {
 		console.log('Query successful.');
 		res.status(200).json(data);

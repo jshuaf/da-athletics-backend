@@ -14,26 +14,33 @@ function addTeamFromData(url) {
 		const $ = cheerio.load(response.data);
 		teamData.level = $('.h-menu-active').text().trim();
 		teamData.url = url;
+		if (teamData.level === 'Overview') {
+			teamData.level = 'Varsity';
+			teamData.url = $('.h-menu-active').next().find('a').first()
+				.attr('href');
+		}
 		let programName;
 		let programURL;
 		let term;
 		if (url === 'https://deerfield.edu/athletics/teams/crew-coed-junior-varsity/') {
-			programName = 'Crew, Coed: Junior Varsity';
-			programURL = url;
+			programName = 'Crew, Coed';
+			programURL = 'https://deerfield.edu/athletics/teams/crew-coed/';
 			term = 'Spring';
+			teamData.level = 'Junior Varsity';
+			teamData.url = url;
 		} else {
 			programName = $('.current-menu-item').text().trim();
 			programURL = $('.current-menu-item').find('a').first().attr('href');
 			term = $('.current-menu-item').parent().prev().text();
 		}
 
-		const existingProgram = yield model.findProgram({ name: programName, url: programURL, });
+		const existingProgram = yield model.findProgram({ url: programURL, });
 		const program = yield existingProgram
 			? model.updateProgram(existingProgram._id, { name: programName, url: programURL, term, })
 			: model.addProgram({ name: programName, url: programURL, term, });
 		teamData.program = program._id;
 		const team = yield model.findOrAddTeam(teamData);
-		program.teams.push(team._id);
+		if (program.teams.indexOf(team._id) < 0) program.teams.push(team._id);
 		yield program.save();
 		return team;
 	}).catch((err) => {
@@ -113,7 +120,7 @@ function refreshAllEvents($) {
 			})
 			.then(savedEvent => console.log(`Completed event ${i}, with ID ${savedEvent._id}`))
 			.catch(err => console.log(err));
-	}, { concurrency: 20, });
+	}, { concurrency: 30, });
 }
 
 model.connect().then(() => {

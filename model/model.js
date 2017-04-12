@@ -15,6 +15,9 @@ exports.findEventsByDate = ((start, end) =>
 	Event.find({ date: { $lte: end, $gte: start, }, }).lean().exec()
 );
 
+exports.findEventsByTeam = (teamID =>
+	Event.find({ team: teamID, }).lean().exec());
+
 exports.updateEvent = (id, toUpdate) =>
 	Event.findByIdAndUpdate(id, toUpdate, { new: true, }).exec();
 
