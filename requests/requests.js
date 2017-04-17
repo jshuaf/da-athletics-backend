@@ -4,6 +4,7 @@ const co = require('co');
 const path = require('path');
 
 const tools = require('../tools');
+require('./clean');
 
 exports.get = (url, options = {}) => {
 	const index = JSON.parse(fs.readFileSync(path.join(__dirname, 'index.json')));

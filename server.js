@@ -1,9 +1,17 @@
+
 const express = require('express');
 const Joi = require('joi');
 const model = require('./model/model');
+const morgan = require('morgan');
+const refresh = require('./parse/refresh');
 
 const app = express();
 const connected = model.connect();
+
+const refreshInterval = 100000;
+setInterval(() => connected.then(refresh.recent()), refreshInterval);
+
+app.use(morgan('dev'));
 
 const getEventsByDateSchema = {
 	startDate: Joi.date(),
@@ -13,11 +21,9 @@ const getEventsByDateSchema = {
 app.get('/events/date', (req, res) => {
 	const { error, } = Joi.validate(req.query, getEventsByDateSchema, { presence: 'required', });
 	if (error) res.status(400).end();
-	console.log('Query for events by date.', req.query);
 	connected.then(() =>
 		model.findEventsByDate(req.query.startDate, req.query.endDate)
 	).then((data) => {
-		console.log('Query successful.');
 		res.status(200).json(data);
 	})
 	.catch((err) => {
@@ -32,11 +38,9 @@ const getEventsByTeamSchema = {
 app.get('/events/team', (req, res) => {
 	const { error, } = Joi.validate(req.query, getEventsByTeamSchema, { presence: 'required', });
 	if (error) res.status(400).end();
-	console.log('Query for events by team.', req.query);
 	connected.then(() =>
 		model.findEventsByTeam(req.query.teamID)
 	).then((data) => {
-		console.log('Query successful.');
 		res.status(200).json(data);
 	})
 	.catch((err) => {
@@ -45,11 +49,9 @@ app.get('/events/team', (req, res) => {
 });
 
 app.get('/programs/all', (req, res) => {
-	console.log('Query for all programs.');
 	connected.then(() =>
 		model.findAllPrograms()
 	).then((data) => {
-		console.log('Query successful.');
 		res.status(200).json(data);
 	})
 	.catch((err) => {
@@ -58,11 +60,9 @@ app.get('/programs/all', (req, res) => {
 });
 
 app.get('/teams/all', (req, res) => {
-	console.log('Query for all teams.');
 	connected.then(() =>
 		model.findAllTeams()
 	).then((data) => {
-		console.log('Query successful.');
 		res.status(200).json(data);
 	})
 	.catch((err) => {

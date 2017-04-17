@@ -1,54 +1,50 @@
 const cheerio = require('cheerio');
 const model = require('../model/model');
-const moment = require('moment-timezone');
+const moment = require('moment');
 const requests = require('../requests/requests');
 const co = require('co');
 const Promise = require('bluebird');
 
-moment.tz.setDefault('America/New_York');
-
-function addTeamFromData(url) {
-	return co(function* () {
-		const teamData = {};
-		const response = yield requests.get(url);
-		const $ = cheerio.load(response.data);
-		teamData.level = $('.h-menu-active').text().trim();
-		teamData.url = url;
-		if (teamData.level === 'Overview') {
-			teamData.level = 'Varsity';
-			teamData.url = $('.h-menu-active').next().find('a').first()
+module.exports.addTeamFromData = url => co(function* () {
+	const teamData = {};
+	const response = yield requests.get(url);
+	const $ = cheerio.load(response.data);
+	teamData.level = $('.h-menu-active').text().trim();
+	teamData.url = url;
+	if (teamData.level === 'Overview') {
+		teamData.level = 'Varsity';
+		teamData.url = $('.h-menu-active').next().find('a').first()
 				.attr('href');
-		}
-		let programName;
-		let programURL;
-		let term;
-		if (url === 'https://deerfield.edu/athletics/teams/crew-coed-junior-varsity/') {
-			programName = 'Crew, Coed';
-			programURL = 'https://deerfield.edu/athletics/teams/crew-coed/';
-			term = 'Spring';
-			teamData.level = 'Junior Varsity';
-			teamData.url = url;
-		} else {
-			programName = $('.current-menu-item').text().trim();
-			programURL = $('.current-menu-item').find('a').first().attr('href');
-			term = $('.current-menu-item').parent().prev().text();
-		}
+	}
+	let programName;
+	let programURL;
+	let term;
+	if (url === 'https://deerfield.edu/athletics/teams/crew-coed-junior-varsity/') {
+		programName = 'Crew, Coed';
+		programURL = 'https://deerfield.edu/athletics/teams/crew-coed/';
+		term = 'Spring';
+		teamData.level = 'Junior Varsity';
+		teamData.url = url;
+	} else {
+		programName = $('.current-menu-item').text().trim();
+		programURL = $('.current-menu-item').find('a').first().attr('href');
+		term = $('.current-menu-item').parent().prev().text();
+	}
 
-		const existingProgram = yield model.findProgram({ url: programURL, });
-		const program = yield existingProgram
+	const existingProgram = yield model.findProgram({ url: programURL, });
+	const program = yield existingProgram
 			? model.updateProgram(existingProgram._id, { name: programName, url: programURL, term, })
 			: model.addProgram({ name: programName, url: programURL, term, });
-		teamData.program = program._id;
-		const team = yield model.findOrAddTeam(teamData);
-		if (program.teams.indexOf(team._id) < 0) program.teams.push(team._id);
-		yield program.save();
-		return team;
-	}).catch((err) => {
-		console.log(err);
-	});
-}
+	teamData.program = program._id;
+	const team = yield model.findOrAddTeam(teamData);
+	if (program.teams.indexOf(team._id) < 0) program.teams.push(team._id);
+	yield program.save();
+	return team;
+}).catch((err) => {
+	console.log(err);
+});
 
-function refreshAllEvents($) {
+module.exports.refreshEvents = ($) => {
 	const eventsTable = $('.event-archive-container');
 	return Promise.map(eventsTable.find('.athletic-event-row').toArray(), (event, i) => {
 		const eventData = { date: new Date(0), };
@@ -78,7 +74,7 @@ function refreshAllEvents($) {
 			case 'event-details': {
 				const teamURL = $(eventDetail).find('a').first().attr('href');
 				if (!teamURL) break;
-				const team = yield addTeamFromData(teamURL);
+				const team = yield module.exports.addTeamFromData(teamURL);
 				eventData.team = team._id;
 				team.events.push(eventData._id);
 				yield team.save();
@@ -121,15 +117,4 @@ function refreshAllEvents($) {
 			.then(savedEvent => console.log(`Completed event ${i}, with ID ${savedEvent._id}`))
 			.catch(err => console.log(err));
 	}, { concurrency: 30, });
-}
-
-model.connect().then(() => {
-	requests.get('https://deerfield.edu/athletics/events/2016')
-	.then(({ data, }) => {
-		refreshAllEvents(cheerio.load(data))
-		.then(() => {
-			model.closeDatabase();
-			console.log('Done');
-		});
-	});
-});
+};

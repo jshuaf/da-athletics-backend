@@ -16,10 +16,10 @@
     "express": "^4.15.2",
     "joi": "^10.3.4",
     "moment": "^2.17.1",
-    "moment-timezone": "^0.5.13",
     "mongodb": "^2.2.21",
     "mongoose": "^4.8.6",
     "mongoose-unique-validator": "^1.0.4",
+    "morgan": "^1.8.1",
     "request": "^2.79.0"
   },
   "devDependencies": {
@@ -28,8 +28,7 @@
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.9.0",
-    "flow-bin": "^0.38.0"
+    "eslint-plugin-react": "^6.9.0"
   },
   "repository": {}
 }
