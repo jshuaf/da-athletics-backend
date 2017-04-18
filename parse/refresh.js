@@ -1,6 +1,5 @@
 const cheerio = require('cheerio');
 const parse = require('./parse.js');
-const model = require('../model/model');
 const requests = require('../requests/requests');
 
 module.exports.recent = () => {
@@ -14,11 +13,14 @@ module.exports.recent = () => {
 };
 
 module.exports.all = () => {
-	requests.get('https://deerfield.edu/athletics/events/2016')
-	.then(({ data, }) => {
-		parse.refreshEvents(cheerio.load(data))
-		.then(() => {
-			console.log('Refreshed all scores.');
+	const years = ['2012', '2013', '2014', '2015', '2016', ];
+	years.forEach((year) => {
+		requests.get(`https://deerfield.edu/athletics/events/${year}`)
+		.then(({ data, }) => {
+			parse.refreshEvents(cheerio.load(data))
+			.then(() => {
+				console.log(`Refreshed scores for ${year}.`);
+			});
 		});
 	});
 };
