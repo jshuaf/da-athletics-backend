@@ -13,8 +13,7 @@ module.exports.recent = () => {
 };
 
 module.exports.all = () => {
-	const years = ['2012', '2013', '2014', '2015', '2016', ];
-	years.forEach((year) => {
+	arguments.forEach((year) => {
 		requests.get(`https://deerfield.edu/athletics/events/${year}`)
 		.then(({ data, }) => {
 			parse.refreshEvents(cheerio.load(data))
