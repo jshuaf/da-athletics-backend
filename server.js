@@ -70,6 +70,10 @@ app.get('/teams/all', (req, res) => {
 	});
 });
 
+app.all('*', (req, res) => {
+	res.status(400).end();
+});
+
 const port = process.argv.includes('--production') ? 80 : 3000;
 app.listen(port, () => {
 	console.log('Listening.');
