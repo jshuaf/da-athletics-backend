@@ -9,9 +9,7 @@ model.connect().then(model.findAllTeams)
 			console.log(program.name, team.level);
 			const newEvents = [];
 			team.events.forEach((eventID) => {
-				co(function* () {
-					if (newEvents.indexOf(eventID) < 0) newEvents.push(eventID);
-				}).catch(err => console.log(err));
+				if (newEvents.indexOf(eventID) < 0) newEvents.push(eventID);
 			});
 			team.events = newEvents;
 			model.updateTeam(team._id, team);
