@@ -11,6 +11,7 @@ model.connect().then(model.findAllTeams)
 			team.events.forEach((eventID) => {
 				if (newEvents.indexOf(eventID) < 0) newEvents.push(eventID);
 			});
+			console.log(`From ${team.events.length} events to ${newEvents.length} events.`);
 			team.events = newEvents;
 			model.updateTeam(team._id, team);
 		}).catch(err => console.log(err));
