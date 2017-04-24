@@ -3,7 +3,7 @@ const parse = require('./parse.js');
 const requests = require('../requests/requests');
 
 module.exports.recent = () => {
-	requests.get('https://deerfield.edu/athletics/events/recent-scores/')
+	requests.get('https://deerfield.edu/athletics/events/recent-scores/', { update: true, })
 	.then(({ data, }) => {
 		parse.refreshEvents(cheerio.load(data))
 		.then(() => {
