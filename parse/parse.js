@@ -114,7 +114,7 @@ module.exports.refreshEvents = ($) => {
 				}
 				return model.addEvent(eventData);
 			})
-			.then(savedEvent => console.log(`Event completed, team ${savedEvent.team} vs ${savedEvent.opponent}, with ID ${savedEvent._id}`))
+			.then(savedEvent => console.log(`Event completed, date ${savedEvent.date}, team ${savedEvent.team} vs ${savedEvent.opponent}, with ID ${savedEvent._id}`))
 			.catch(err => console.log(err));
 	}, { concurrency: 30, });
 };
