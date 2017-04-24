@@ -30,6 +30,9 @@ exports.findOrAddTeam = data =>
 
 exports.findAllTeams = () => Team.find().lean().exec();
 
+exports.updateTeam = (id, toUpdate) =>
+	Team.findByIdAndUpdate(id, toUpdate, { new: true, }).exec();
+
 exports.findProgram = data => Program.findOne(data).exec();
 
 exports.findAllPrograms = () => Program.find().lean().exec();
