@@ -8,9 +8,7 @@ model.connect().then(model.findAllTeams)
 		const newEvents = [];
 		team.events.forEach((eventID) => {
 			co(function* () {
-				const event = yield model.findEvent({ _id: eventID, });
-				console.log(event._id);
-				if (newEvents.indexOf(event) < 0) newEvents.append(event);
+				if (newEvents.indexOf(eventID) < 0) newEvents.append(eventID);
 			});
 		});
 		team.events = newEvents;
