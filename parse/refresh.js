@@ -13,7 +13,8 @@ module.exports.recent = () => {
 };
 
 module.exports.all = () => {
-	arguments.forEach((year) => {
+	for (let i = 0; i < arguments.length; i += 1) {
+		const year = arguments[i];
 		requests.get(`https://deerfield.edu/athletics/events/${year}`)
 		.then(({ data, }) => {
 			parse.refreshEvents(cheerio.load(data))
@@ -21,5 +22,5 @@ module.exports.all = () => {
 				console.log(`Refreshed scores for ${year}.`);
 			});
 		});
-	});
+	}
 };
