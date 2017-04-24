@@ -12,15 +12,12 @@ module.exports.recent = () => {
 	});
 };
 
-module.exports.all = () => {
-	for (let i = 0; i < arguments.length; i += 1) {
-		const year = arguments[i];
-		requests.get(`https://deerfield.edu/athletics/events/${year}`)
+module.exports.all = (year) => {
+	requests.get(`https://deerfield.edu/athletics/events/${year}`)
 		.then(({ data, }) => {
 			parse.refreshEvents(cheerio.load(data))
 			.then(() => {
 				console.log(`Refreshed scores for ${year}.`);
 			});
 		});
-	}
 };
