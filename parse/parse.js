@@ -118,3 +118,8 @@ module.exports.refreshEvents = ($) => {
 			.catch(err => console.log(err));
 	}, { concurrency: 30, });
 };
+
+module.exports.eventDescription = $ => ({
+	header: $('.h-t').text().trim(),
+	description: $('.entry-content').text().trim(),
+});

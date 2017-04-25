@@ -4,6 +4,9 @@ const Joi = require('joi');
 const model = require('./model/model');
 const morgan = require('morgan');
 const refresh = require('./parse/refresh');
+const parse = require('./parse/parse');
+const cheerio = require('cheerio');
+const requests = require('./requests/requests');
 
 const app = express();
 const connected = model.connect();
@@ -64,6 +67,23 @@ app.get('/teams/all', (req, res) => {
 		model.findAllTeams()
 	).then((data) => {
 		res.status(200).json(data);
+	})
+	.catch((err) => {
+		console.log(err);
+	});
+});
+
+const getEventDescriptionSchema = {
+	descriptionURL: Joi.string(),
+};
+
+app.get('/events/description', (req, res) => {
+	const { error, } = Joi.validate(req.query, getEventDescriptionSchema, { presence: 'required', });
+	if (error) res.status(400).end();
+	connected.then(() => requests.get(req.query.descriptionURL, { update: true, })
+	).then((response) => {
+		const results = parse.eventDescription(cheerio.load(response.data));
+		res.status(200).json(results);
 	})
 	.catch((err) => {
 		console.log(err);
