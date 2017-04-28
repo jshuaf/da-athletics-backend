@@ -76,8 +76,10 @@ module.exports.refreshEvents = ($) => {
 				if (!teamURL) break;
 				const team = yield module.exports.addTeamFromData(teamURL);
 				eventData.team = team._id;
-				team.events.push(eventData._id);
-				yield team.save();
+				if (team.events.indexOf(eventData._id) < 0) {
+					team.events.push(eventData._id);
+					yield team.save();
+				}
 				break;
 			}
 			case 'event-opponent':
