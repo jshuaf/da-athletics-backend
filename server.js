@@ -6,7 +6,19 @@ const morgan = require('morgan');
 const refresh = require('./parse/refresh');
 const parse = require('./parse/parse');
 const cheerio = require('cheerio');
+const apn = require('apn');
+const bodyParser = require('body-parser');
 const requests = require('./requests/requests');
+const notify = require('./notify/notify.js');
+
+const provider = new apn.Provider({
+	token: {
+		key: 'APNsAuthKey_YMB3K93PU3.p8',
+		keyId: 'YMB3K93PU3',
+		teamId: 'RPE83CLFGM',
+	},
+	production: false,
+});
 
 const app = express();
 const connected = model.connect();
@@ -14,6 +26,8 @@ const connected = model.connect();
 const refreshInterval = 100000;
 setInterval(() => connected.then(refresh.recent()), refreshInterval);
 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true, }));
 app.use(morgan('dev'));
 
 const getEventsByDateSchema = {
@@ -86,6 +100,22 @@ app.get('/events/description', (req, res) => {
 		res.status(200).json(results);
 	})
 	.catch((err) => {
+		console.log(err);
+	});
+});
+
+const addDeviceTokenSchema = {
+	deviceToken: Joi.string(),
+};
+
+app.post('/device/add', (req, res) => {
+	const { error, } = Joi.validate(req.body, addDeviceTokenSchema, { presence: 'required', });
+	if (error) res.status(400).end();
+	connected.then(() =>
+		model.addDevice({ _id: req.body.deviceToken, })
+	).then(() => {
+		res.status(200).end();
+	}).catch((err) => {
 		console.log(err);
 	});
 });
