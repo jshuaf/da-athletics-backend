@@ -12,6 +12,7 @@ const requests = require('./requests/requests');
 const notify = require('./notify/notify.js');
 const co = require('co');
 const Promise = require('bluebird');
+const clean = require('./requests/clean');
 
 const provider = new apn.Provider({
 	token: {
@@ -36,6 +37,7 @@ const refreshInterval = 100000;
 refreshRecentAndUpcoming();
 
 setInterval(refreshRecentAndUpcoming, refreshInterval);
+setInterval(clean, 1000000);
 
 
 app.use(bodyParser.json());
