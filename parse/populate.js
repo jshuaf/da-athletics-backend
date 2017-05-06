@@ -3,4 +3,4 @@ const refresh = require('./refresh');
 
 const connected = model.connect();
 
-connected.then(refresh.all());
+connected.then(refresh.all(2016));

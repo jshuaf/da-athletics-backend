@@ -47,6 +47,11 @@ exports.removeAllEvents = () => Event.remove({});
 
 exports.addDevice = data => (new Device(data)).save();
 
+exports.findDevice = data => Device.findOne({ _id: data._id, }).exec();
+
+exports.updateDevice = (id, toUpdate) =>
+	Device.findByIdAndUpdate(id, toUpdate, { new: true, upsert: true, }).exec();
+
 exports.findAllDevices = () => Device.find().exec();
 
 exports.closeDatabase = () => mongoose.connection.close();

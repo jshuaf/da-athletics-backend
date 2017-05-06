@@ -37,7 +37,7 @@ const getEventsByDateSchema = {
 
 app.get('/events/date', (req, res) => {
 	const { error, } = Joi.validate(req.query, getEventsByDateSchema, { presence: 'required', });
-	if (error) res.status(400).end();
+	if (error) return res.status(400).end();
 	connected.then(() =>
 		model.findEventsByDate(req.query.startDate, req.query.endDate)
 	).then((data) => {
@@ -54,7 +54,7 @@ const getEventsByTeamSchema = {
 
 app.get('/events/team', (req, res) => {
 	const { error, } = Joi.validate(req.query, getEventsByTeamSchema, { presence: 'required', });
-	if (error) res.status(400).end();
+	if (error) return res.status(400).end();
 	connected.then(() =>
 		model.findEventsByTeam(req.query.teamID)
 	).then((data) => {
@@ -93,7 +93,7 @@ const getEventDescriptionSchema = {
 
 app.get('/events/description', (req, res) => {
 	const { error, } = Joi.validate(req.query, getEventDescriptionSchema, { presence: 'required', });
-	if (error) res.status(400).end();
+	if (error) return res.status(400).end();
 	connected.then(() => requests.get(req.query.descriptionURL, { update: true, })
 	).then((response) => {
 		const results = parse.eventDescription(cheerio.load(response.data));
@@ -104,16 +104,24 @@ app.get('/events/description', (req, res) => {
 	});
 });
 
-const addDeviceTokenSchema = {
-	deviceToken: Joi.string(),
+const addDeviceSchema = {
+	_id: Joi.string(),
+	position: Joi.string(),
+	primaryTeam: Joi.string().optional(),
+	teamsWithNotifications: Joi.string().optional(),
 };
 
 app.post('/device/add', (req, res) => {
-	const { error, } = Joi.validate(req.body, addDeviceTokenSchema, { presence: 'required', });
-	if (error) res.status(400).end();
-	connected.then(() =>
-		model.addDevice({ _id: req.body.deviceToken, })
-	).then(() => {
+	const { error, } = Joi.validate(req.body, addDeviceSchema, { presence: 'required', });
+	if (error) return res.status(400).end();
+	connected.then(() => {
+		const deviceData = Object.assign(req.body);
+		if (deviceData.teamsWithNotifications) {
+			deviceData.teamsWithNotifications = JSON.parse(deviceData.teamsWithNotifications);
+		}
+		model.updateDevice(deviceData._id, deviceData);
+	}).then(() => {
+		console.log(req.body);
 		res.status(200).end();
 	}).catch((err) => {
 		console.log(err);
