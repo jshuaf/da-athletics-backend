@@ -10,6 +10,7 @@ const TeamSchema = Schema({
 	program: { type: Schema.Types.ObjectId, ref: 'Program', required: true, },
 	url: { type: String, unique: true, },
 	events: [{ type: Number, ref: 'Event', }, ],
+	devicesWithNotifications: [{ type: Schema.Types.String, ref: 'Device', }, ],
 });
 
 TeamSchema.plugin(uniqueValidator);

@@ -10,6 +10,8 @@ const apn = require('apn');
 const bodyParser = require('body-parser');
 const requests = require('./requests/requests');
 const notify = require('./notify/notify.js');
+const co = require('co');
+const Promise = require('bluebird');
 
 const provider = new apn.Provider({
 	token: {
@@ -29,7 +31,7 @@ const app = express();
 const connected = model.connect();
 
 const refreshInterval = 100000;
-refreshRecentAndUpcoming();
+
 setInterval(refreshRecentAndUpcoming, refreshInterval);
 
 
@@ -121,11 +123,34 @@ const addDeviceSchema = {
 app.post('/device/add', (req, res) => {
 	const { error, } = Joi.validate(req.body, addDeviceSchema, { presence: 'required', });
 	if (error) return res.status(400).end();
+	const deviceData = Object.assign(req.body);
 	connected.then(() => {
-		const deviceData = Object.assign(req.body);
 		if (deviceData.teamsWithNotifications) {
 			deviceData.teamsWithNotifications = JSON.parse(deviceData.teamsWithNotifications);
+			return Promise.map(deviceData.teamsWithNotifications, teamID =>
+				co(function* () {
+					const team = yield model.findTeam({ _id: teamID, });
+					if (team.devicesWithNotifications.indexOf(deviceData._id) < 0) {
+						team.devicesWithNotifications.push(deviceData._id);
+					}
+					yield team.save();
+				})
+			);
 		}
+	}).then(() => {
+		model.findDevice({ _id: deviceData._id, })
+		.then(oldDevice => Promise.map(oldDevice.teamsWithNotifications, (teamID) => {
+			co(function* () {
+				if (deviceData.teamsWithNotifications.indexOf(teamID) < 0) {
+					const team = yield model.findTeam({ _id: teamID, });
+					const index = team.devicesWithNotifications.indexOf(deviceData._id);
+					if (index >= 0) {
+						team.devicesWithNotifications.splice(index, 1);
+					}
+					yield team.save();
+				}
+			});
+		}));
 		model.updateDevice(deviceData._id, deviceData);
 	}).then(() => {
 		console.log(req.body);
