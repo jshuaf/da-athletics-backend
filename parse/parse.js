@@ -4,6 +4,7 @@ const moment = require('moment');
 const requests = require('../requests/requests');
 const co = require('co');
 const Promise = require('bluebird');
+const notify = require('../notify/notify');
 
 module.exports.addTeamFromData = url => co(function* () {
 	const teamData = {};
@@ -114,6 +115,9 @@ module.exports.refreshEvents = ($) => {
 			.then(() => model.findEvent({ _id: eventData._id, }))
 			.then((currentEvent) => {
 				if (currentEvent) {
+					if (currentEvent.status === 'Unscored' && eventData.status !== 'Unscored') {
+						notify.notifyEvent(eventData);
+					}
 					return model.updateEvent(eventData._id, { $set: eventData, });
 				}
 				return model.addEvent(eventData);

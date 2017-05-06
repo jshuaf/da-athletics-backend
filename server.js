@@ -22,6 +22,8 @@ const provider = new apn.Provider({
 	production: false,
 });
 
+notify.configure(provider);
+
 const refreshRecentAndUpcoming = () =>
 connected
 .then(refresh.recent)
@@ -31,6 +33,7 @@ const app = express();
 const connected = model.connect();
 
 const refreshInterval = 100000;
+refreshRecentAndUpcoming();
 
 setInterval(refreshRecentAndUpcoming, refreshInterval);
 
@@ -137,22 +140,22 @@ app.post('/device/add', (req, res) => {
 				})
 			);
 		}
-	}).then(() => {
-		model.findDevice({ _id: deviceData._id, })
-		.then(oldDevice => Promise.map(oldDevice.teamsWithNotifications, (teamID) => {
-			co(function* () {
-				if (deviceData.teamsWithNotifications.indexOf(teamID) < 0) {
-					const team = yield model.findTeam({ _id: teamID, });
-					const index = team.devicesWithNotifications.indexOf(deviceData._id);
-					if (index >= 0) {
-						team.devicesWithNotifications.splice(index, 1);
-					}
-					yield team.save();
+	})
+	.then(model.findDevice({ _id: deviceData._id, }))
+	.then(oldDevice => Promise.map(oldDevice.teamsWithNotifications, (teamID) => {
+		co(function* () {
+			if (deviceData.teamsWithNotifications.indexOf(teamID) < 0) {
+				const team = yield model.findTeam({ _id: teamID, });
+				const index = team.devicesWithNotifications.indexOf(deviceData._id);
+				if (index >= 0) {
+					team.devicesWithNotifications.splice(index, 1);
 				}
-			});
-		}));
-		model.updateDevice(deviceData._id, deviceData);
-	}).then(() => {
+				yield team.save();
+			}
+		});
+	}))
+	.then(() => { model.updateDevice(deviceData._id, deviceData); })
+	.then(() => {
 		console.log(req.body);
 		res.status(200).end();
 	}).catch((err) => {
