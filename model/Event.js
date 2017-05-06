@@ -14,7 +14,7 @@ const EventSchema = Schema({
 	score1: { type: Number, },
 	score2: { type: Number, },
 	descriptionURL: { type: String, },
-	status: { type: String, enum: ['Win', 'Loss', 'Tie', 'Cancelled', 'Scrimmage', 'Other', ], required: true, },
+	status: { type: String, enum: ['Win', 'Loss', 'Tie', 'Cancelled', 'Unscored', 'Scrimmage', 'Other', ], required: true, },
 });
 
 EventSchema.plugin(uniqueValidator);

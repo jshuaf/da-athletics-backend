@@ -20,11 +20,18 @@ const provider = new apn.Provider({
 	production: false,
 });
 
+const refreshRecentAndUpcoming = () =>
+connected
+.then(refresh.recent)
+.then(refresh.upcoming);
+
 const app = express();
 const connected = model.connect();
 
 const refreshInterval = 100000;
-setInterval(() => connected.then(refresh.recent()), refreshInterval);
+refreshRecentAndUpcoming();
+setInterval(refreshRecentAndUpcoming, refreshInterval);
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true, }));
