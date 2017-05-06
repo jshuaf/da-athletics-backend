@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const Team = require('./Team');
 const Event = require('./Event');
 const Program = require('./Program');
+const Device = require('./Device');
 
 mongoose.Promise = global.Promise;
 
@@ -43,5 +44,14 @@ exports.updateProgram = (id, toUpdate) =>
 	Program.findByIdAndUpdate(id, toUpdate, { new: true, }).exec();
 
 exports.removeAllEvents = () => Event.remove({});
+
+exports.addDevice = data => (new Device(data)).save();
+
+exports.findDevice = data => Device.findOne({ _id: data._id, }).exec();
+
+exports.updateDevice = (id, toUpdate) =>
+	Device.findByIdAndUpdate(id, toUpdate, { new: true, upsert: true, }).exec();
+
+exports.findAllDevices = () => Device.find().exec();
 
 exports.closeDatabase = () => mongoose.connection.close();

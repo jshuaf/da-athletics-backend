@@ -26,7 +26,7 @@
 <link rel="alternate" type="application/rss+xml" title="Deerfield Academy &raquo; Comments Feed" href="https://deerfield.edu/comments/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Deerfield Academy &raquo; Athletic Events Feed" href="https://deerfield.edu/athletics/events/feed/" />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/deerfield.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=fbb42ecf5a00e689c3b4976482f94e4c"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/deerfield.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=39d6e75652c65728ed647f4d7b2e8623"}};
 			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -43,26 +43,26 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='dashicons-css'  href='https://deerfield.edu/wp-includes/css/dashicons.min.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://deerfield.edu/wp-includes/css/dashicons.min.css?ver=39d6e75652c65728ed647f4d7b2e8623' type='text/css' media='all' />
 <link rel='stylesheet' id='wunderground-css'  href='https://deerfield.edu/wp-content/plugins/wunderground/assets/css/wunderground.css?ver=2.1.3' type='text/css' media='all' />
 <link rel='stylesheet' id='cff-css'  href='https://deerfield.edu/wp-content/plugins/custom-facebook-feed/css/cff-style.css?ver=2.4.5' type='text/css' media='all' />
 <link rel='stylesheet' id='cff-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ver=4.5.0' type='text/css' media='all' />
 <link rel='stylesheet' id='sb_instagram_styles-css'  href='https://deerfield.edu/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='taxonomy-image-plugin-public-css'  href='https://deerfield.edu/wp-content/plugins/taxonomy-images/css/style.css?ver=0.9.6' type='text/css' media='screen' />
-<link rel='stylesheet' id='deerfield-style-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/style.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
-<link rel='stylesheet' id='deerfield-styles-new-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/styles.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
-<link rel='stylesheet' id='dfa-directory-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/directory.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
-<link rel='stylesheet' id='dfa-responsive-structure-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/responsive-structure.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
-<link rel='stylesheet' id='dfa-faq-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/faq.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
-<link rel='stylesheet' id='dfa-alumni-event-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/alumni-event.css?ver=fbb42ecf5a00e689c3b4976482f94e4c' type='text/css' media='all' />
-<link rel='stylesheet' id='user-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/user/styles.css?ver=1492468651' type='text/css' media='all' />
+<link rel='stylesheet' id='deerfield-style-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/style.css?ver=20170420' type='text/css' media='all' />
+<link rel='stylesheet' id='deerfield-styles-new-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/styles.css?ver=39d6e75652c65728ed647f4d7b2e8623' type='text/css' media='all' />
+<link rel='stylesheet' id='dfa-directory-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/directory.css?ver=39d6e75652c65728ed647f4d7b2e8623' type='text/css' media='all' />
+<link rel='stylesheet' id='dfa-responsive-structure-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/responsive-structure.css?ver=39d6e75652c65728ed647f4d7b2e8623' type='text/css' media='all' />
+<link rel='stylesheet' id='dfa-faq-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/faq.css?ver=39d6e75652c65728ed647f4d7b2e8623' type='text/css' media='all' />
+<link rel='stylesheet' id='dfa-alumni-event-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/alumni-event.css?ver=39d6e75652c65728ed647f4d7b2e8623' type='text/css' media='all' />
+<link rel='stylesheet' id='user-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/user/styles.css?ver=1494099426' type='text/css' media='all' />
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='https://deerfield.edu/wp-includes/js/wp-a11y.min.js?ver=fbb42ecf5a00e689c3b4976482f94e4c'></script>
+<script type='text/javascript' src='https://deerfield.edu/wp-includes/js/wp-a11y.min.js?ver=39d6e75652c65728ed647f4d7b2e8623'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
@@ -71,28 +71,28 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var WuWidget = {"apiKey":"3ffab52910ec1a0e","_wpnonce":"ae652f6756","ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","is_admin":"","subdomain":"www"};
+var WuWidget = {"apiKey":"3ffab52910ec1a0e","_wpnonce":"c56a42e0f8","ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","is_admin":"","subdomain":"www"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/plugins/wunderground/assets/js/widget.min.js?ver=2.1.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var uf_pulse_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"0205dabe60"};
+var uf_pulse_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"dbc1a61c0f"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/plugins/uf-pulse/js/ajax.js?ver=0.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var uf_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"f19dc7dc8a"};
+var uf_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"f05365c10b"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/ajax-directory.js?ver=fbb42ecf5a00e689c3b4976482f94e4c'></script>
+<script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/ajax-directory.js?ver=39d6e75652c65728ed647f4d7b2e8623'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rate_faq_nonce":"300c285e5a"};
+var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rate_faq_nonce":"e2da76a8f6"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/ajax.js?ver=fbb42ecf5a00e689c3b4976482f94e4c'></script>
+<script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/ajax.js?ver=39d6e75652c65728ed647f4d7b2e8623'></script>
 <link rel='https://api.w.org/' href='https://deerfield.edu/wp-json/' />
 
 		<!-- lightbox -->
@@ -390,155 +390,11 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		
 	</th>
 </tr>
-<tr id="post-10244609" class=" event-row athletic-event-row win post-10244609 athletic-event type-athletic-event status-publish hentry location-home team-varsity-boys-lacrosse opponent-choate athletic-event-status-win" >
+<tr id="post-10246494" class=" event-row athletic-event-row win post-10246494 athletic-event type-athletic-event status-publish hentry location-home team-varsity-boys-tennis opponent-groton athletic-event-status-win" >
 	<td class="athletic-event-date">
-		Apr 15, '17	</td>
+		May 4, '17	</td>
 	<td class="athletic-event-time">
-		2:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-boys-lacrosse/">
-					Lacrosse, Boys: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Choate	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-defeats-choate/10244609/" >
-									Win - 17-4			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-defeats-choate/10244609/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244507" class=" event-row athletic-event-row win post-10244507 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-baseball opponent-williston athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		2:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-baseball/">
-					Baseball: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Williston	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-defeats-williston-3/10244507/" >
-									Win - 8-2			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-defeats-williston-3/10244507/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244712" class=" event-row athletic-event-row loss post-10244712 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-tennis opponent-taft athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		3:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-girls-tennis/">
-					Tennis, Girls: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Taft	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-varsity-loses-to-taft/10244712/" >
-									Loss - 4-5			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-varsity-loses-to-taft/10244712/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244589" class=" event-row athletic-event-row win post-10244589 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-boys-lacrosse opponent-choate athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		2:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
-					Lacrosse, Boys: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Choate	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-choate/10244589/" >
-									Win - 17-5			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-choate/10244589/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244686" class=" event-row athletic-event-row loss post-10244686 athletic-event type-athletic-event status-publish hentry location-away team-varsity-boys-tennis opponent-taft athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		2:00 pm	</td>
+		5:00 pm	</td>
 			<td class="event-details">
 			
 							<a href="https://deerfield.edu/athletics/teams/varsity-boys-tennis/">
@@ -548,116 +404,13 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 		</td>
 	
 	<td class="event-opponent">
-		Taft	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-loses-to-taft/10244686/" >
-									Loss - 1-6			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-loses-to-taft/10244686/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244724" class=" event-row athletic-event-row ranked post-10244724 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-track opponent-andover opponent-taft athletic-event-status-ranked" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		2:45 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-coed-track/">
-					Track &amp; Field, Coed: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Andover, Taft	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Boys 3rd Place (47 pts)
-Girls 3rd Place (33 pts)		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/track-field-coed-varsity-vs-andover-and-taft/10244724/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244675" class=" event-row athletic-event-row loss post-10244675 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-boys-tennis opponent-taft athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		2:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-tennis/">
-					Tennis, Boys: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Taft	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Loss - 2-5		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-junior-varsity-loses-to-taft/10244675/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244563" class=" event-row athletic-event-row loss post-10244563 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-coed-golf opponent-eaglebrook athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		2:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-coed-golf/">
-					Golf, Coed: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Eaglebrook	</td>
+		Groton	</td>
 	<td class="event-location">
 		Home	</td>
 	<td class="athletic-event-status">
 		 		
  				
-			Loss - 0-5		
+			Win - 6-0		
 		
 		
 		
@@ -666,725 +419,19 @@ Girls 3rd Place (33 pts)
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-junior-varsity-loses-to-eaglebrook/10244563/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/tennis-boys-varsity-defeats-groton/10246494/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244574" class=" event-row athletic-event-row win post-10244574 athletic-event type-athletic-event status-publish hentry location-home team-varsity-coed-golf opponent-exeter athletic-event-status-win" >
+<tr id="post-10244690" class=" event-row athletic-event-row win post-10244690 athletic-event type-athletic-event status-publish hentry location-home team-varsity-boys-tennis opponent-westminster athletic-event-status-win" >
 	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		2:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-coed-golf/">
-					Golf, Coed: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Exeter	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Win - 9-1		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-defeats-exeter/10244574/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244524" class=" event-row athletic-event-row win post-10244524 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-nmh athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		2:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		NMH	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-defeats-nmh-5/10244524/" >
-									Win - 9-7			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-defeats-nmh-5/10244524/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244645" class=" event-row athletic-event-row live-stream loss post-10244645 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-lacrosse opponent-choate athletic-event-status-live-stream athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		12:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-girls-lacrosse/">
-					Lacrosse, Girls: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Choate	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-loses-to-choate-2/10244645/" >
-									Loss - 11-13			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-loses-to-choate-2/10244645/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244661" class=" event-row athletic-event-row win post-10244661 athletic-event type-athletic-event status-publish hentry location-away team-varsity-softball opponent-choate athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		1:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-softball/">
-					Softball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Choate	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-defeats-choate-3/10244661/" >
-									Win - 22-0			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-defeats-choate-3/10244661/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244701" class=" event-row athletic-event-row loss post-10244701 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-girls-tennis opponent-taft athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
+		May 3, '17	</td>
 	<td class="athletic-event-time">
 		3:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-tennis/">
-					Tennis, Girls: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Taft	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Loss - 3-4		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-junior-varsity-loses-to-taft/10244701/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244735" class=" event-row athletic-event-row loss post-10244735 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-water-polo opponent-williston athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		12:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-girls-water-polo/">
-					Water Polo, Girls: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Williston	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-williston/10244735/" >
-									Loss - 10-11 OT			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-williston/10244735/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244630" class=" event-row athletic-event-row win post-10244630 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-girls-lacrosse opponent-choate athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 15, '17	</td>
-	<td class="athletic-event-time">
-		12:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-lacrosse/">
-					Lacrosse, Girls: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Choate	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Win - 11-3		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-junior-varsity-defeats-choate/10244630/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244633" class=" event-row athletic-event-row loss post-10244633 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-girls-lacrosse opponent-andover athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		3:45 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-lacrosse/">
-					Lacrosse, Girls: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Andover	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-junior-varsity-loses-to-andover/10244633/" >
-									Loss - 9-13			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-junior-varsity-loses-to-andover/10244633/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10246251" class=" event-row athletic-event-row win post-10246251 athletic-event type-athletic-event status-publish hentry location-home team-varsity-coed-golf opponent-nmh athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		2:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-coed-golf/">
-					Golf, Coed: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		NMH	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Win - DA - 203
-Avon - 217
-NMH - 219		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-defeats-avon-2/10246251/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244572" class=" event-row athletic-event-row win post-10244572 athletic-event type-athletic-event status-publish hentry location-home team-varsity-coed-golf opponent-avon athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		2:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-coed-golf/">
-					Golf, Coed: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Avon	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-defeats-avon/10244572/" >
-									Win - DA - 203
-Avon - 217
-NMH - 219			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-defeats-avon/10244572/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244684" class=" event-row athletic-event-row loss post-10244684 athletic-event type-athletic-event status-publish hentry location-away team-varsity-boys-tennis opponent-kingswood athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		4:30 pm	</td>
 			<td class="event-details">
 			
 							<a href="https://deerfield.edu/athletics/teams/varsity-boys-tennis/">
 					Tennis, Boys: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Kingswood	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-loses-to-kingswood/10244684/" >
-									Loss - 2-4			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-loses-to-kingswood/10244684/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244506" class=" event-row athletic-event-row win post-10244506 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-baseball opponent-taft athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		3:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-baseball/">
-					Baseball: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Taft	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-defeats-taft/10244506/" >
-									Win - 11-0			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-defeats-taft/10244506/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244644" class=" event-row athletic-event-row win post-10244644 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-lacrosse opponent-andover athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		3:45 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-girls-lacrosse/">
-					Lacrosse, Girls: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Andover	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-defeats-andover/10244644/" >
-									Win - 17-14			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-defeats-andover/10244644/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244522" class=" event-row athletic-event-row loss post-10244522 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-taft athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		4:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Taft	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-loses-to-taft-3/10244522/" >
-									Loss - 1-10			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-loses-to-taft-3/10244522/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244660" class=" event-row athletic-event-row win post-10244660 athletic-event type-athletic-event status-publish hentry location-away team-varsity-softball opponent-worcester athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		3:45 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-softball/">
-					Softball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Worcester	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-defeats-worcester/10244660/" >
-									Win - 9-5			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-defeats-worcester/10244660/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244733" class=" event-row athletic-event-row loss post-10244733 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-water-polo opponent-loomis athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		3:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-girls-water-polo/">
-					Water Polo, Girls: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Loomis	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-loomis-2/10244733/" >
-									Loss - 6-7 OT			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-loomis-2/10244733/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244604" class=" event-row athletic-event-row live-stream win post-10244604 athletic-event type-athletic-event status-publish hentry location-home team-varsity-boys-lacrosse opponent-navy-prep athletic-event-status-live-stream athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		4:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-boys-lacrosse/">
-					Lacrosse, Boys: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Navy Prep	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-defeats-navy-prep/10244604/" >
-									Win - 14-8			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-defeats-navy-prep/10244604/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244592" class=" event-row athletic-event-row win post-10244592 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-boys-lacrosse opponent-cardigan athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 12, '17	</td>
-	<td class="athletic-event-time">
-		3:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
-					Lacrosse, Boys: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Cardigan	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Win - 6-5 OT		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-cardigan/10244592/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10245948" class=" event-row athletic-event-row scrimmage post-10245948 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-mohawk-trail-regional-hs athletic-event-status-scrimmage" >
-	<td class="athletic-event-date">
-		Apr 10, '17	</td>
-	<td class="athletic-event-time">
-		4:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
-					Baseball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Mohawk Trail Regional HS	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Scrimmage - No Score Reported		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-vs-mohawk-trail-regional-hs/10245948/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244656" class=" event-row athletic-event-row win post-10244656 athletic-event type-athletic-event status-publish hentry location-home team-varsity-softball opponent-stoneleigh athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 10, '17	</td>
-	<td class="athletic-event-time">
-		4:15 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-softball/">
-					Softball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Stoneleigh	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-defeats-stoneleigh/10244656/" >
-									Win - 16-0			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-defeats-stoneleigh/10244656/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244585" class=" event-row athletic-event-row win post-10244585 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-boys-lacrosse opponent-westminster athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 8, '17	</td>
-	<td class="athletic-event-time">
-		4:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
-					Lacrosse, Boys: Junior Varsity				</a><br />
 			
 
 		</td>
@@ -1396,8 +443,8 @@ NMH - 219
 	<td class="athletic-event-status">
 		 		
  				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-westminster/10244585/" >
-									Win - 7-6 OT			
+			<a href="https://deerfield.edu/athletics/events/2017/05/tennis-boys-varsity-defeats-westminster/10244690/" >
+									Win - 7-0			
 							</a>
 		
 		
@@ -1408,157 +455,13 @@ NMH - 219
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-westminster/10244585/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/tennis-boys-varsity-defeats-westminster/10244690/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244714" class=" event-row athletic-event-row loss post-10244714 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-tennis opponent-groton athletic-event-status-loss" >
+<tr id="post-10244650" class=" event-row athletic-event-row win post-10244650 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-lacrosse opponent-loomis athletic-event-status-win" >
 	<td class="athletic-event-date">
-		Apr 8, '17	</td>
-	<td class="athletic-event-time">
-		3:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-girls-tennis/">
-					Tennis, Girls: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Groton	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-varsity-loses-to-groton/10244714/" >
-									Loss - 4-11			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-varsity-loses-to-groton/10244714/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244659" class=" event-row athletic-event-row win post-10244659 athletic-event type-athletic-event status-publish hentry location-home team-varsity-softball opponent-miss-porters athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 8, '17	</td>
-	<td class="athletic-event-time">
-		3:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-softball/">
-					Softball: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Miss Porter's	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-defeats-miss-porters-3/10244659/" >
-									Win - 10-4			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-defeats-miss-porters-3/10244659/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244685" class=" event-row athletic-event-row ranked post-10244685 athletic-event type-athletic-event status-publish hentry location-away team-varsity-boys-tennis opponent-kingswood-tournament-2 athletic-event-status-ranked" >
-	<td class="athletic-event-date">
-		Apr 8, '17	</td>
-	<td class="athletic-event-time">
-		9:00 am	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-boys-tennis/">
-					Tennis, Boys: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Kingswood Tournament	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-vs-kingswood-tournament/10244685/" >
-									2nd Place			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-vs-kingswood-tournament/10244685/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244734" class=" event-row athletic-event-row loss post-10244734 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-water-polo opponent-hotchkiss athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 8, '17	</td>
-	<td class="athletic-event-time">
-		3:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-girls-water-polo/">
-					Water Polo, Girls: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Hotchkiss	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-hotchkiss/10244734/" >
-									Loss - 5-6			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-hotchkiss/10244734/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244643" class=" event-row athletic-event-row win post-10244643 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-lacrosse opponent-middlesex athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 8, '17	</td>
+		May 3, '17	</td>
 	<td class="athletic-event-time">
 		3:30 pm	</td>
 			<td class="event-details">
@@ -1570,14 +473,14 @@ NMH - 219
 		</td>
 	
 	<td class="event-opponent">
-		Middlesex	</td>
+		Loomis	</td>
 	<td class="event-location">
 		Home	</td>
 	<td class="athletic-event-status">
 		 		
  				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-defeats-middlesex/10244643/" >
-									Win - 15-12			
+			<a href="https://deerfield.edu/athletics/events/2017/05/lacrosse-girls-varsity-defeats-loomis/10244650/" >
+									Win - 11-9			
 							</a>
 		
 		
@@ -1588,15 +491,51 @@ NMH - 219
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-defeats-middlesex/10244643/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/lacrosse-girls-varsity-defeats-loomis/10244650/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244523" class=" event-row athletic-event-row win post-10244523 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-cushing athletic-event-status-win" >
+<tr id="post-10244666" class=" event-row athletic-event-row win post-10244666 athletic-event type-athletic-event status-publish hentry location-away team-varsity-softball opponent-wilbraham athletic-event-status-win" >
 	<td class="athletic-event-date">
-		Apr 8, '17	</td>
+		May 3, '17	</td>
 	<td class="athletic-event-time">
-		2:30 pm	</td>
+		3:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-softball/">
+					Softball: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Wilbraham	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/05/softball-varsity-defeats-wilbraham/10244666/" >
+									Win - 12-7			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/softball-varsity-defeats-wilbraham/10244666/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244528" class=" event-row athletic-event-row live-stream win post-10244528 athletic-event type-athletic-event status-publish hentry location-away team-varsity-baseball opponent-cushing athletic-event-status-live-stream athletic-event-status-win" >
+	<td class="athletic-event-date">
+		May 3, '17	</td>
+	<td class="athletic-event-time">
+		3:30 pm	</td>
 			<td class="event-details">
 			
 							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
@@ -1608,12 +547,12 @@ NMH - 219
 	<td class="event-opponent">
 		Cushing	</td>
 	<td class="event-location">
-		Home	</td>
+		Away	</td>
 	<td class="athletic-event-status">
 		 		
  				
-			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-defeats-cushing-2/10244523/" >
-									Win - 5-2			
+			<a href="https://deerfield.edu/athletics/events/2017/05/baseball-varsity-defeats-cushing-3/10244528/" >
+									Win - 6-4			
 							</a>
 		
 		
@@ -1624,15 +563,195 @@ NMH - 219
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-defeats-cushing-2/10244523/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/baseball-varsity-defeats-cushing-3/10244528/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244603" class=" event-row athletic-event-row win post-10244603 athletic-event type-athletic-event status-publish hentry location-home team-varsity-boys-lacrosse opponent-westminster athletic-event-status-win" >
+<tr id="post-10244515" class=" event-row athletic-event-row win post-10244515 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-baseball opponent-nmh athletic-event-status-win" >
 	<td class="athletic-event-date">
-		Apr 8, '17	</td>
+		May 3, '17	</td>
 	<td class="athletic-event-time">
-		4:00 pm	</td>
+		2:15 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-baseball/">
+					Baseball: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		NMH	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/05/baseball-junior-varsity-defeats-nmh-6/10244515/" >
+									Win - 16-6			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/baseball-junior-varsity-defeats-nmh-6/10244515/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244639" class=" event-row athletic-event-row win post-10244639 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-girls-lacrosse opponent-loomis athletic-event-status-win" >
+	<td class="athletic-event-date">
+		May 3, '17	</td>
+	<td class="athletic-event-time">
+		3:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-lacrosse/">
+					Lacrosse, Girls: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Loomis	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/05/lacrosse-girls-junior-varsity-defeats-loomis/10244639/" >
+									Win - 12-9			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/lacrosse-girls-junior-varsity-defeats-loomis/10244639/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244707" class=" event-row athletic-event-row win post-10244707 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-girls-tennis opponent-nmh athletic-event-status-win" >
+	<td class="athletic-event-date">
+		May 3, '17	</td>
+	<td class="athletic-event-time">
+		2:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-tennis/">
+					Tennis, Girls: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		NMH	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/05/tennis-girls-junior-varsity-defeats-nmh/10244707/" >
+									Win - 9-1			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/tennis-girls-junior-varsity-defeats-nmh/10244707/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244738" class=" event-row athletic-event-row win post-10244738 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-water-polo opponent-loomis athletic-event-status-win" >
+	<td class="athletic-event-date">
+		May 3, '17	</td>
+	<td class="athletic-event-time">
+		4:45 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-water-polo/">
+					Water Polo, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Loomis	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/05/water-polo-girls-varsity-defeats-loomis/10244738/" >
+									Win - 8-4			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/water-polo-girls-varsity-defeats-loomis/10244738/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244578" class=" event-row athletic-event-row win post-10244578 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-golf opponent-nmh athletic-event-status-win" >
+	<td class="athletic-event-date">
+		May 3, '17	</td>
+	<td class="athletic-event-time">
+		2:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-coed-golf/">
+					Golf, Coed: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		NMH	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/05/golf-coed-varsity-defeats-nmh/10244578/" >
+									Win - 8-5-0.5			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/golf-coed-varsity-defeats-nmh/10244578/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244610" class=" event-row athletic-event-row win post-10244610 athletic-event type-athletic-event status-publish hentry location-away location-yale-university-reese-field team-varsity-boys-lacrosse opponent-lawrenceville athletic-event-status-win" >
+	<td class="athletic-event-date">
+		May 3, '17	</td>
+	<td class="athletic-event-time">
+		4:15 pm	</td>
 			<td class="event-details">
 			
 							<a href="https://deerfield.edu/athletics/teams/varsity-boys-lacrosse/">
@@ -1642,9 +761,42 @@ NMH - 219
 		</td>
 	
 	<td class="event-opponent">
-		Westminster	</td>
+		Lawrenceville	</td>
 	<td class="event-location">
-		Home	</td>
+		Away, Yale University - Reese Field	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Win - 17-4		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/lacrosse-boys-varsity-defeats-lawrenceville/10244610/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244593" class=" event-row athletic-event-row win post-10244593 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-boys-lacrosse opponent-cardigan athletic-event-status-win" >
+	<td class="athletic-event-date">
+		May 3, '17	</td>
+	<td class="athletic-event-time">
+		4:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
+					Lacrosse, Boys: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Cardigan	</td>
+	<td class="event-location">
+		Away	</td>
 	<td class="athletic-event-status">
 		 		
  				
@@ -1657,15 +809,51 @@ NMH - 219
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-defeats-westminster/10244603/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/lacrosse-boys-junior-varsity-defeats-cardigan-2/10244593/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244672" class=" event-row athletic-event-row win post-10244672 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-boys-tennis opponent-cardigan athletic-event-status-win" >
+<tr id="post-10244566" class=" event-row athletic-event-row win post-10244566 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-coed-golf opponent-williston athletic-event-status-win" >
 	<td class="athletic-event-date">
-		Apr 8, '17	</td>
+		May 3, '17	</td>
 	<td class="athletic-event-time">
-		3:30 pm	</td>
+		2:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-coed-golf/">
+					Golf, Coed: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Williston	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/05/golf-coed-junior-varsity-defeats-williston/10244566/" >
+									Win - 5-1			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/golf-coed-junior-varsity-defeats-williston/10244566/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244680" class=" event-row athletic-event-row win post-10244680 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-boys-tennis opponent-westminster athletic-event-status-win" >
+	<td class="athletic-event-date">
+		May 3, '17	</td>
+	<td class="athletic-event-time">
+		3:00 pm	</td>
 			<td class="event-details">
 			
 							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-tennis/">
@@ -1675,7 +863,7 @@ NMH - 219
 		</td>
 	
 	<td class="event-opponent">
-		Cardigan	</td>
+		Westminster	</td>
 	<td class="event-location">
 		Home	</td>
 	<td class="athletic-event-status">
@@ -1690,15 +878,120 @@ NMH - 219
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-junior-varsity-defeats-cardigan/10244672/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/tennis-boys-junior-varsity-defeats-westminster/10244680/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10246004" class=" event-row athletic-event-row scrimmage post-10246004 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-baseball opponent-n-e-ruffnecks athletic-event-status-scrimmage" >
+<tr id="post-10246573" class=" event-row athletic-event-row loss post-10246573 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-girls-tennis opponent-stoneleigh athletic-event-status-loss" >
 	<td class="athletic-event-date">
-		Apr 8, '17	</td>
+		May 1, '17	</td>
 	<td class="athletic-event-time">
-		10:00 am	</td>
+		4:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-tennis/">
+					Tennis, Girls: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Stoneleigh	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/05/tennis-girls-junior-varsity-loses-to-stoneleigh/10246573/" >
+									Loss - 3-4			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/05/tennis-girls-junior-varsity-loses-to-stoneleigh/10246573/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10246028" class=" event-row athletic-event-row ranked post-10246028 athletic-event type-athletic-event status-publish hentry location-away location-episcopal-academy location-loudon team-varsity-boys-tennis opponent-nema-george-c-shafer-jr-doubles-tournament athletic-event-status-ranked" >
+	<td class="athletic-event-date">
+		Apr 30, '17	</td>
+	<td class="athletic-event-time">
+		TBD	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-boys-tennis/">
+					Tennis, Boys: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		NEMA George C. Shafer JR. Doubles Tournament	</td>
+	<td class="event-location">
+		Away, Episcopal Academy, Loudon	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-vs-nema-george-c-shafer-jr-doubles-tournament-2/10246028/" >
+									3rd Place			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-vs-nema-george-c-shafer-jr-doubles-tournament-2/10246028/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10246027" class=" event-row athletic-event-row ranked post-10246027 athletic-event type-athletic-event status-publish hentry location-away location-episcopal-academy location-loudon team-varsity-boys-tennis opponent-nema-george-c-shafer-jr-doubles-tournament athletic-event-status-ranked" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		TBD	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-boys-tennis/">
+					Tennis, Boys: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		NEMA George C. Shafer JR. Doubles Tournament	</td>
+	<td class="event-location">
+		Away, Episcopal Academy, Loudon	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			3rd Place after Day 1		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-vs-nema-george-c-shafer-jr-doubles-tournament/10246027/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244509" class=" event-row athletic-event-row win post-10244509 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-baseball opponent-exeter athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		1:00 pm	</td>
 			<td class="event-details">
 			
 							<a href="https://deerfield.edu/athletics/teams/junior-varsity-baseball/">
@@ -1708,14 +1001,14 @@ NMH - 219
 		</td>
 	
 	<td class="event-opponent">
-		N.E. Ruffnecks (S)	</td>
+		Exeter	</td>
 	<td class="event-location">
 		Home	</td>
 	<td class="athletic-event-status">
 		 		
  				
-			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-vs-n-e-ruffnecks-s/10246004/" >
-									Scrimmage - No Score Reported			
+			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-defeats-exeter/10244509/" >
+									Win - 6-4			
 							</a>
 		
 		
@@ -1726,230 +1019,15 @@ NMH - 219
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-vs-n-e-ruffnecks-s/10246004/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-defeats-exeter/10244509/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244583" class=" event-row athletic-event-row win post-10244583 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-boys-lacrosse opponent-avon athletic-event-status-win" >
+<tr id="post-10244529" class=" event-row athletic-event-row loss post-10244529 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-exeter-dh athletic-event-status-loss" >
 	<td class="athletic-event-date">
-		Apr 5, '17	</td>
+		Apr 29, '17	</td>
 	<td class="athletic-event-time">
-		3:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
-					Lacrosse, Boys: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Avon	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-avon/10244583/" >
-									Win - 8-7 OT			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-avon/10244583/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244571" class=" event-row athletic-event-row loss post-10244571 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-golf opponent-brunswick athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 5, '17	</td>
-	<td class="athletic-event-time">
-		3:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-coed-golf/">
-					Golf, Coed: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Brunswick	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Loss - 3rd Place
-Brunswick - 192
-Loomis - 204
-Deerfield - 211		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-loses-to-brunswick/10244571/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10246254" class=" event-row athletic-event-row loss post-10246254 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-golf opponent-loomis athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 5, '17	</td>
-	<td class="athletic-event-time">
-		3:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-coed-golf/">
-					Golf, Coed: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Loomis	</td>
-	<td class="event-location">
-		Away	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			Loss - Brunswick - 192
-Loomis - 204
-DA - 211		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-loses-to-loomis/10246254/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244627" class=" event-row athletic-event-row win post-10244627 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-girls-lacrosse opponent-st-marks-3 athletic-event-status-win" >
-	<td class="athletic-event-date">
-		Apr 5, '17	</td>
-	<td class="athletic-event-time">
-		4:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-lacrosse/">
-					Lacrosse, Girls: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		St. Mark's	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-junior-varsity-defeats-st-marks/10244627/" >
-									Win - 12-4			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-junior-varsity-defeats-st-marks/10244627/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244504" class=" event-row athletic-event-row scrimmage post-10244504 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-baseball opponent-loomis-s athletic-event-status-scrimmage" >
-	<td class="athletic-event-date">
-		Apr 5, '17	</td>
-	<td class="athletic-event-time">
-		3:30 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-baseball/">
-					Baseball: Junior Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		Loomis (S)	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-vs-loomis-s/10244504/" >
-									Scrimmage - No Score Reported			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-vs-loomis-s/10244504/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244642" class=" event-row athletic-event-row loss post-10244642 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-lacrosse opponent-st-marks-3 athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 5, '17	</td>
-	<td class="athletic-event-time">
-		4:00 pm	</td>
-			<td class="event-details">
-			
-							<a href="https://deerfield.edu/athletics/teams/varsity-girls-lacrosse/">
-					Lacrosse, Girls: Varsity				</a><br />
-			
-
-		</td>
-	
-	<td class="event-opponent">
-		St. Mark's	</td>
-	<td class="event-location">
-		Home	</td>
-	<td class="athletic-event-status">
-		 		
- 				
-			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-loses-to-st-marks-4/10244642/" >
-									Loss - 13-17			
-							</a>
-		
-		
-		
-		
-		
-		
-		&nbsp;
-	</td>
-	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-loses-to-st-marks-4/10244642/ics">iCal</a>
-	</td>
-</tr>
-
-<tr id="post-10244521" class=" event-row athletic-event-row loss post-10244521 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-loomis athletic-event-status-loss" >
-	<td class="athletic-event-date">
-		Apr 5, '17	</td>
-	<td class="athletic-event-time">
-		3:30 pm	</td>
+		1:00 pm	</td>
 			<td class="event-details">
 			
 							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
@@ -1959,14 +1037,14 @@ DA - 211
 		</td>
 	
 	<td class="event-opponent">
-		Loomis	</td>
+		Exeter (DH)	</td>
 	<td class="event-location">
 		Home	</td>
 	<td class="athletic-event-status">
 		 		
  				
-			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-loses-to-loomis-2/10244521/" >
-									Loss - 3-5			
+			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-loses-to-exeter-dh-2/10244529/" >
+									Loss - 2-5			
 							</a>
 		
 		
@@ -1977,19 +1055,130 @@ DA - 211
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-loses-to-loomis-2/10244521/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-loses-to-exeter-dh-2/10244529/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244674" class=" event-row athletic-event-row win post-10244674 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-boys-tennis opponent-hotchkiss athletic-event-status-win" >
+<tr id="post-10246642" class=" event-row athletic-event-row loss post-10246642 athletic-event type-athletic-event status-publish hentry location-home team-varsity-baseball opponent-exeter-dh athletic-event-status-loss" >
 	<td class="athletic-event-date">
-		Apr 5, '17	</td>
+		Apr 29, '17	</td>
 	<td class="athletic-event-time">
-		3:30 pm	</td>
+		1:00 pm	</td>
 			<td class="event-details">
 			
-							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-tennis/">
-					Tennis, Boys: Junior Varsity				</a><br />
+							<a href="https://deerfield.edu/athletics/teams/varsity-baseball/">
+					Baseball: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Exeter (DH)	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-loses-to-exeter-dh-3/10246642/" >
+									Loss - 5-16			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-varsity-loses-to-exeter-dh-3/10246642/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244561" class=" event-row athletic-event-row win post-10244561 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-cycling opponent-gould-road-race athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		3:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-coed-cycling/">
+					Cycling, Coed: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Gould Road Race	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/cycling-coed-varsity-defeats-gould-road-race/10244561/" >
+									Win			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/cycling-coed-varsity-defeats-gould-road-race/10244561/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244548" class=" event-row athletic-event-row win post-10244548 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-crew opponent-pomfret-quad athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		2:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-crew/">
+					Crew, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Pomfret Quad	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/crew-girls-varsity-defeats-pomfret-quad/10244548/" >
+									Win - Boat #1 & 2 - 1st
+Boat #3 - 2nd
+Boat #4 - 3rd
+Boat #5 - 3rd			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/crew-girls-varsity-defeats-pomfret-quad/10244548/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244720" class=" event-row athletic-event-row loss post-10244720 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-tennis opponent-hotchkiss athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		3:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-tennis/">
+					Tennis, Girls: Varsity				</a><br />
 			
 
 		</td>
@@ -2001,8 +1190,8 @@ DA - 211
 	<td class="athletic-event-status">
 		 		
  				
-			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-junior-varsity-defeats-hotchkiss/10244674/" >
-									Win - 7-0			
+			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-varsity-loses-to-hotchkiss/10244720/" >
+									Loss - 2-7			
 							</a>
 		
 		
@@ -2013,15 +1202,189 @@ DA - 211
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-junior-varsity-defeats-hotchkiss/10244674/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-varsity-loses-to-hotchkiss/10244720/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244732" class=" event-row athletic-event-row loss post-10244732 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-water-polo opponent-suffield athletic-event-status-loss" >
+<tr id="post-10244649" class=" event-row athletic-event-row win post-10244649 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-lacrosse opponent-westminster athletic-event-status-win" >
 	<td class="athletic-event-date">
-		Apr 5, '17	</td>
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		6:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-lacrosse/">
+					Lacrosse, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Westminster	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-defeats-westminster/10244649/" >
+									Win - 11-10 OT			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-defeats-westminster/10244649/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244537" class=" event-row athletic-event-row win post-10244537 athletic-event type-athletic-event status-publish hentry location-away team-varsity-boys-crew opponent-pomfret-quad athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		2:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-boys-crew/">
+					Crew, Boys: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Pomfret Quad	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/crew-boys-varsity-defeats-pomfret-quad/10244537/" >
+									Win - Boats #1-7 - 1st			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/crew-boys-varsity-defeats-pomfret-quad/10244537/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244706" class=" event-row athletic-event-row win post-10244706 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-girls-tennis opponent-hotchkiss athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
 	<td class="athletic-event-time">
 		3:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-tennis/">
+					Tennis, Girls: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Hotchkiss	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-junior-varsity-defeats-hotchkiss/10244706/" >
+									Win - 4-3			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-junior-varsity-defeats-hotchkiss/10244706/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244576" class=" event-row athletic-event-row ranked post-10244576 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-golf opponent-newport-invitational athletic-event-status-ranked" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		12:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-coed-golf/">
+					Golf, Coed: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Newport Invitational	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			4th Place		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-vs-newport-invitational/10244576/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244608" class=" event-row athletic-event-row win post-10244608 athletic-event type-athletic-event status-publish hentry location-away team-varsity-boys-lacrosse opponent-andover athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		6:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-boys-lacrosse/">
+					Lacrosse, Boys: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Andover	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Win - 16-6		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-defeats-andover/10244608/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10246641" class=" event-row athletic-event-row loss post-10246641 athletic-event type-athletic-event status-publish hentry location-away location-hopkins team-varsity-girls-water-polo opponent-ghs athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		2:00 pm	</td>
 			<td class="event-details">
 			
 							<a href="https://deerfield.edu/athletics/teams/varsity-girls-water-polo/">
@@ -2031,14 +1394,47 @@ DA - 211
 		</td>
 	
 	<td class="event-opponent">
-		Suffield	</td>
+		GHS	</td>
 	<td class="event-location">
-		Away	</td>
+		Away, Hopkins	</td>
 	<td class="athletic-event-status">
 		 		
  				
-			<a href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-suffield/10244732/" >
-									Loss - 3-11			
+			Loss - 2-11		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-ghs/10246641/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244739" class=" event-row athletic-event-row loss post-10244739 athletic-event type-athletic-event status-publish hentry location-away location-hopkins team-varsity-girls-water-polo opponent-hopkins athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		2:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-water-polo/">
+					Water Polo, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Hopkins	</td>
+	<td class="event-location">
+		Away, Hopkins	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-hopkins/10244739/" >
+									Loss - 2-10			
 							</a>
 		
 		
@@ -2049,15 +1445,115 @@ DA - 211
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-suffield/10244732/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-hopkins/10244739/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244657" class=" event-row athletic-event-row loss post-10244657 athletic-event type-athletic-event status-publish hentry location-home team-varsity-softball opponent-cushing athletic-event-status-loss" >
+<tr id="post-10244726" class=" event-row athletic-event-row ranked post-10244726 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-track opponent-hotchkiss opponent-loomis athletic-event-status-ranked" >
 	<td class="athletic-event-date">
-		Apr 5, '17	</td>
+		Apr 29, '17	</td>
 	<td class="athletic-event-time">
-		3:00 pm	</td>
+		2:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-coed-track/">
+					Track &amp; Field, Coed: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Hotchkiss, Loomis	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Girls - 2nd
+Boys - 3rd		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/track-field-coed-varsity-vs-hotchkiss-and-loomis/10244726/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244588" class=" event-row athletic-event-row win post-10244588 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-boys-lacrosse opponent-andover athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		3:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
+					Lacrosse, Boys: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Andover	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Win - 17-3		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-andover/10244588/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244634" class=" event-row athletic-event-row win post-10244634 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-girls-lacrosse opponent-westminster athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		2:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-lacrosse/">
+					Lacrosse, Girls: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Westminster	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Win - 12-6		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-junior-varsity-defeats-westminster/10244634/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244665" class=" event-row athletic-event-row loss post-10244665 athletic-event type-athletic-event status-publish hentry location-away team-varsity-softball opponent-williston athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Apr 29, '17	</td>
+	<td class="athletic-event-time">
+		2:30 pm	</td>
 			<td class="event-details">
 			
 							<a href="https://deerfield.edu/athletics/teams/varsity-softball/">
@@ -2067,14 +1563,47 @@ DA - 211
 		</td>
 	
 	<td class="event-opponent">
-		Cushing	</td>
+		Williston	</td>
 	<td class="event-location">
-		Home	</td>
+		Away	</td>
 	<td class="athletic-event-status">
 		 		
  				
-			<a href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-loses-to-cushing/10244657/" >
-									Loss - 4-7			
+			Loss - 2-4		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-loses-to-williston-3/10244665/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10246591" class=" event-row athletic-event-row win post-10246591 athletic-event type-athletic-event status-publish hentry location-away team-varsity-boys-tennis opponent-nmh athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 27, '17	</td>
+	<td class="athletic-event-time">
+		4:15 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-boys-tennis/">
+					Tennis, Boys: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		NMH	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-defeats-nmh/10246591/" >
+									Win - 4-0			
 							</a>
 		
 		
@@ -2085,19 +1614,164 @@ DA - 211
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-loses-to-cushing/10244657/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-boys-varsity-defeats-nmh/10246591/ics">iCal</a>
 	</td>
 </tr>
 
-<tr id="post-10244602" class=" event-row athletic-event-row win post-10244602 athletic-event type-athletic-event status-publish hentry location-away team-varsity-boys-lacrosse opponent-berkshire athletic-event-status-win" >
+<tr id="post-10244635" class=" event-row athletic-event-row win post-10244635 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-girls-lacrosse opponent-williston athletic-event-status-win" >
 	<td class="athletic-event-date">
-		Apr 5, '17	</td>
+		Apr 26, '17	</td>
 	<td class="athletic-event-time">
-		4:00 pm	</td>
+		3:00 pm	</td>
 			<td class="event-details">
 			
-							<a href="https://deerfield.edu/athletics/teams/varsity-boys-lacrosse/">
-					Lacrosse, Boys: Varsity				</a><br />
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-lacrosse/">
+					Lacrosse, Girls: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Williston	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-junior-varsity-defeats-williston/10244635/" >
+									Win - 11-2			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-junior-varsity-defeats-williston/10244635/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244729" class=" event-row athletic-event-row ranked post-10244729 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-track opponent-penn-relays athletic-event-status-ranked" >
+	<td class="athletic-event-date">
+		Apr 26, '17	</td>
+	<td class="athletic-event-time">
+		TBD	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-coed-track/">
+					Track &amp; Field, Coed: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Penn Relays	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/track-field-coed-varsity-vs-penn-relays/10244729/" >
+									4th Place			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/track-field-coed-varsity-vs-penn-relays/10244729/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244648" class=" event-row athletic-event-row loss post-10244648 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-lacrosse opponent-williston athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Apr 26, '17	</td>
+	<td class="athletic-event-time">
+		3:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-lacrosse/">
+					Lacrosse, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Williston	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-loses-to-williston-4/10244648/" >
+									Loss - 10-20			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-girls-varsity-loses-to-williston-4/10244648/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10246264" class=" event-row athletic-event-row win post-10246264 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-golf opponent-hotchkiss athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 26, '17	</td>
+	<td class="athletic-event-time">
+		2:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-coed-golf/">
+					Golf, Coed: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Hotchkiss	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-defeats-hotchkiss/10246264/" >
+									Win - DA - 399
+HOTCH - 409			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-defeats-hotchkiss/10246264/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244577" class=" event-row athletic-event-row win post-10244577 athletic-event type-athletic-event status-publish hentry location-away team-varsity-coed-golf opponent-berkshire athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 26, '17	</td>
+	<td class="athletic-event-time">
+		2:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-coed-golf/">
+					Golf, Coed: Varsity				</a><br />
 			
 
 		</td>
@@ -2109,7 +1783,11 @@ DA - 211
 	<td class="athletic-event-status">
 		 		
  				
-			Win - 20-6		
+			<a href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-defeats-berkshire/10244577/" >
+									Win - DA - 399
+BE - 438			
+							</a>
+		
 		
 		
 		
@@ -2118,7 +1796,461 @@ DA - 211
 		&nbsp;
 	</td>
 	<td>
-		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-defeats-berkshire/10244602/ics">iCal</a>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-varsity-defeats-berkshire/10244577/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244737" class=" event-row athletic-event-row loss post-10244737 athletic-event type-athletic-event status-publish hentry location-away team-varsity-girls-water-polo opponent-choate athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Apr 26, '17	</td>
+	<td class="athletic-event-time">
+		3:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-water-polo/">
+					Water Polo, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Choate	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-choate/10244737/" >
+									Loss - 3-7			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/water-polo-girls-varsity-loses-to-choate/10244737/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244565" class=" event-row athletic-event-row win post-10244565 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-coed-golf opponent-nmh athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 26, '17	</td>
+	<td class="athletic-event-time">
+		2:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-coed-golf/">
+					Golf, Coed: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		NMH	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Win - DA - 264
+NMH - 308		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/golf-coed-junior-varsity-defeats-nmh/10244565/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244606" class=" event-row athletic-event-row live-stream win post-10244606 athletic-event type-athletic-event status-publish hentry location-home team-varsity-boys-lacrosse opponent-loomis athletic-event-status-live-stream athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 26, '17	</td>
+	<td class="athletic-event-time">
+		3:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-boys-lacrosse/">
+					Lacrosse, Boys: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Loomis	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-defeats-loomis/10244606/" >
+									Win - 18-2			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-defeats-loomis/10244606/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244510" class=" event-row athletic-event-row win post-10244510 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-baseball opponent-nmh athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 26, '17	</td>
+	<td class="athletic-event-time">
+		2:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-baseball/">
+					Baseball: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		NMH	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Win - 15-2		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/baseball-junior-varsity-defeats-nmh-5/10244510/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244590" class=" event-row athletic-event-row win post-10244590 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-boys-lacrosse opponent-loomis athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 26, '17	</td>
+	<td class="athletic-event-time">
+		3:30 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
+					Lacrosse, Boys: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Loomis	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Win - 10-3		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-loomis/10244590/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10246479" class=" event-row athletic-event-row win post-10246479 athletic-event type-athletic-event status-publish hentry location-away location-fessenden-school team-junior-varsity-boys-lacrosse opponent-hillside athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 23, '17	</td>
+	<td class="athletic-event-time">
+		2:50 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
+					Lacrosse, Boys: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Hillside	</td>
+	<td class="event-location">
+		Away, Fessenden School	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-hillside/10246479/" >
+									Win			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-hillside/10246479/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10246480" class=" event-row athletic-event-row win post-10246480 athletic-event type-athletic-event status-publish hentry location-away location-fessenden-school team-junior-varsity-boys-lacrosse opponent-tbd athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 23, '17	</td>
+	<td class="athletic-event-time">
+		4:40 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
+					Lacrosse, Boys: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		TBD	</td>
+	<td class="event-location">
+		Away, Fessenden School	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-tbd/10246480/" >
+									Win			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-tbd/10246480/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10246476" class=" event-row athletic-event-row win post-10246476 athletic-event type-athletic-event status-publish hentry location-away location-fessenden-school team-junior-varsity-boys-lacrosse opponent-fessenden athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 23, '17	</td>
+	<td class="athletic-event-time">
+		12:20 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
+					Lacrosse, Boys: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Fessenden	</td>
+	<td class="event-location">
+		Away, Fessenden School	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-fessenden/10246476/" >
+									Win			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-fessenden/10246476/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10246478" class=" event-row athletic-event-row win post-10246478 athletic-event type-athletic-event status-publish hentry location-away location-fessenden-school team-junior-varsity-boys-lacrosse opponent-eaglebrook athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 23, '17	</td>
+	<td class="athletic-event-time">
+		1:10 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
+					Lacrosse, Boys: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Eaglebrook	</td>
+	<td class="event-location">
+		Away, Fessenden School	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-eaglebrook/10246478/" >
+									Win			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-eaglebrook/10246478/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244715" class=" event-row athletic-event-row win post-10244715 athletic-event type-athletic-event status-publish hentry location-home team-varsity-girls-tennis opponent-williston athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 22, '17	</td>
+	<td class="athletic-event-time">
+		4:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-girls-tennis/">
+					Tennis, Girls: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Williston	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-varsity-defeats-williston/10244715/" >
+									Win - 9-0			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-varsity-defeats-williston/10244715/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244703" class=" event-row athletic-event-row win post-10244703 athletic-event type-athletic-event status-publish hentry location-home team-junior-varsity-girls-tennis opponent-williston athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 22, '17	</td>
+	<td class="athletic-event-time">
+		4:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-girls-tennis/">
+					Tennis, Girls: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Williston	</td>
+	<td class="event-location">
+		Home	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			<a href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-junior-varsity-defeats-williston/10244703/" >
+									Win - 4-2			
+							</a>
+		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/tennis-girls-junior-varsity-defeats-williston/10244703/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244605" class=" event-row athletic-event-row loss post-10244605 athletic-event type-athletic-event status-publish hentry location-away team-varsity-boys-lacrosse opponent-taft athletic-event-status-loss" >
+	<td class="athletic-event-date">
+		Apr 22, '17	</td>
+	<td class="athletic-event-time">
+		4:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/varsity-boys-lacrosse/">
+					Lacrosse, Boys: Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Taft	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Loss - 9-10		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-varsity-loses-to-taft-3/10244605/ics">iCal</a>
+	</td>
+</tr>
+
+<tr id="post-10244591" class=" event-row athletic-event-row win post-10244591 athletic-event type-athletic-event status-publish hentry location-away team-junior-varsity-boys-lacrosse opponent-taft athletic-event-status-win" >
+	<td class="athletic-event-date">
+		Apr 22, '17	</td>
+	<td class="athletic-event-time">
+		4:00 pm	</td>
+			<td class="event-details">
+			
+							<a href="https://deerfield.edu/athletics/teams/junior-varsity-boys-lacrosse/">
+					Lacrosse, Boys: Junior Varsity				</a><br />
+			
+
+		</td>
+	
+	<td class="event-opponent">
+		Taft	</td>
+	<td class="event-location">
+		Away	</td>
+	<td class="athletic-event-status">
+		 		
+ 				
+			Win - 12-5		
+		
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	<td>
+		<a class="button" href="https://deerfield.edu/athletics/events/2017/04/lacrosse-boys-junior-varsity-defeats-taft/10244591/ics">iCal</a>
 	</td>
 </tr>
 									
@@ -2203,9 +2335,9 @@ var sb_instagram_js_options = {"sb_instagram_at":"218669987.97584da.9549820fdda3
 <script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/faq/ajax.js?ver=20130831'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/faq/script.js?ver=20130831'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/jquery.filterRow.js?ver=20130831'></script>
-<script type='text/javascript' src='https://deerfield.edu/wp-includes/js/wp-embed.min.js?ver=fbb42ecf5a00e689c3b4976482f94e4c'></script>
+<script type='text/javascript' src='https://deerfield.edu/wp-includes/js/wp-embed.min.js?ver=39d6e75652c65728ed647f4d7b2e8623'></script>
       
-	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"683235856d","applicationID":"8444353","transactionName":"blBRNkcFXhAFUxAMWlcacgFBDV8NS1EWBl1QQ1ZPVBBYDwFEDQYYXENWDEE=","queueTime":0,"applicationTime":1665,"atts":"QhdSQA8fTR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"683235856d","applicationID":"8444353","transactionName":"blBRNkcFXhAFUxAMWlcacgFBDV8NS1EWBl1QQ1ZPVBBYDwFEDQYYXENWDEE=","queueTime":0,"applicationTime":1783,"atts":"QhdSQA8fTR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 
 </html>
 

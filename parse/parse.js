@@ -4,6 +4,7 @@ const moment = require('moment');
 const requests = require('../requests/requests');
 const co = require('co');
 const Promise = require('bluebird');
+const notify = require('../notify/notify');
 
 module.exports.addTeamFromData = url => co(function* () {
 	const teamData = {};
@@ -46,7 +47,7 @@ module.exports.addTeamFromData = url => co(function* () {
 
 module.exports.refreshEvents = ($) => {
 	const eventsTable = $('.event-archive-container');
-	return Promise.map(eventsTable.find('.athletic-event-row').toArray(), (event, i) => {
+	return Promise.map(eventsTable.find('.athletic-event-row').toArray(), (event) => {
 		const eventData = { date: new Date(0), };
 		eventData._id = $(event).attr('id').replace('post-', '');
 		const rawData = $(event).find('td').toArray().map(co.wrap(function* (eventDetail) {
@@ -100,6 +101,8 @@ module.exports.refreshEvents = ($) => {
 					eventData.status = 'Cancelled';
 				} else if (text.indexOf('Scrimmage') >= 0) {
 					eventData.status = 'Scrimmage';
+				} else if (text.length === 0) {
+					eventData.status = 'Unscored';
 				} else {
 					eventData.status = 'Other';
 				}
@@ -112,11 +115,14 @@ module.exports.refreshEvents = ($) => {
 			.then(() => model.findEvent({ _id: eventData._id, }))
 			.then((currentEvent) => {
 				if (currentEvent) {
+					if (currentEvent.status === 'Unscored' && eventData.status !== 'Unscored') {
+						notify.notifyEvent(eventData);
+					}
 					return model.updateEvent(eventData._id, { $set: eventData, });
 				}
 				return model.addEvent(eventData);
 			})
-			.then(savedEvent => console.log(`Event completed, date ${savedEvent.date}, team ${savedEvent.team} vs ${savedEvent.opponent}, with ID ${savedEvent._id}`))
+			.then(savedEvent => console.log(`Event: date ${savedEvent.date}, team ${savedEvent.team} vs ${savedEvent.opponent}, ID ${savedEvent._id}, status ${savedEvent.status}`))
 			.catch(err => console.log(err));
 	}, { concurrency: 30, });
 };

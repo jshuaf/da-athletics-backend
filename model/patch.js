@@ -1,6 +1,7 @@
 const model = require('./model');
 const co = require('co');
 
+/*
 model.connect().then(model.findAllTeams)
 .then((teams) => {
 	teams.forEach((team) => {
@@ -15,5 +16,17 @@ model.connect().then(model.findAllTeams)
 			team.events = newEvents;
 			model.updateTeam(team._id, team);
 		}).catch(err => console.log(err));
+	});
+})*/
+model.connect().then(model.findAllTeams)
+.then((teams) => {
+	teams.forEach((team) => {
+		co(function* () {
+			console.log(team._id);
+			if (!team.devicesWithNotifications) {
+				team.devicesWithNotifications = [];
+			}
+			yield model.updateTeam(team._id, team);
+		});
 	});
 });

@@ -10,7 +10,7 @@
 		
 		<meta name="viewport" content="width=device-width">		
 
-		<title>Softball: Varsity loses to Taft | Deerfield Academy</title>
+		<title>Cycling, Coed: Varsity vs. Deerfield Road Race (canceled) | Deerfield Academy</title>
 
 		<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/688814/717868/css/fonts.css" />
 		
@@ -22,9 +22,9 @@
 
 						
 				<meta property="og:site_name"          content="Deerfield Academy" />
-				<meta property="og:url"                content="https://deerfield.edu/athletics/events/2017/04/softball-varsity-loses-to-taft-4/10244664/" />
+				<meta property="og:url"                content="https://deerfield.edu/athletics/events/2017/05/cycling-coed-varsity-vs-deerfield-road-race-canceled/10246015/" />
 				<meta property="og:type"               content="article" />
-				<meta property="og:title"              content="Softball: Varsity loses to Taft" />
+				<meta property="og:title"              content="Cycling, Coed: Varsity vs. Deerfield Road Race (canceled)" />
 				
 								
 				
@@ -62,7 +62,7 @@ img.emoji {
 <link rel='stylesheet' id='dfa-responsive-structure-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/responsive-structure.css?ver=39d6e75652c65728ed647f4d7b2e8623' type='text/css' media='all' />
 <link rel='stylesheet' id='dfa-faq-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/faq.css?ver=39d6e75652c65728ed647f4d7b2e8623' type='text/css' media='all' />
 <link rel='stylesheet' id='dfa-alumni-event-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/styles/css/alumni-event.css?ver=39d6e75652c65728ed647f4d7b2e8623' type='text/css' media='all' />
-<link rel='stylesheet' id='user-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/user/styles.css?ver=1493086699' type='text/css' media='all' />
+<link rel='stylesheet' id='user-css'  href='https://deerfield.edu/wp-content/themes/deerfield_1_3/user/styles.css?ver=1494092290' type='text/css' media='all' />
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
@@ -78,35 +78,35 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var WuWidget = {"apiKey":"3ffab52910ec1a0e","_wpnonce":"554a1e411c","ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","is_admin":"","subdomain":"www"};
+var WuWidget = {"apiKey":"3ffab52910ec1a0e","_wpnonce":"c56a42e0f8","ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","is_admin":"","subdomain":"www"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/plugins/wunderground/assets/js/widget.min.js?ver=2.1.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var uf_pulse_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"268143ec86"};
+var uf_pulse_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"dbc1a61c0f"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/plugins/uf-pulse/js/ajax.js?ver=0.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var uf_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"bccb30a56d"};
+var uf_ajax = {"url":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","nonce":"f05365c10b"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/ajax-directory.js?ver=39d6e75652c65728ed647f4d7b2e8623'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rate_faq_nonce":"cee214d978"};
+var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rate_faq_nonce":"e2da76a8f6"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/ajax.js?ver=39d6e75652c65728ed647f4d7b2e8623'></script>
 <link rel='https://api.w.org/' href='https://deerfield.edu/wp-json/' />
-<link rel='prev' title='Crew, Girls: Varsity defeats Greenwich, Newton Country Day, and St. Mark&#8217;s' href='https://deerfield.edu/athletics/events/2017/04/crew-girls-varsity-defeats-greenwich-newton-country-day-and-st-marks/10244547/' />
-<link rel='next' title='Golf, Coed: Junior Varsity vs. Taft' href='https://deerfield.edu/athletics/events/2017/04/golf-coed-junior-varsity-vs-taft/10246272/' />
-<link rel="canonical" href="https://deerfield.edu/athletics/events/2017/04/softball-varsity-loses-to-taft-4/10244664/" />
-<link rel='shortlink' href='https://deerfield.edu/?p=10244664' />
-<link rel="alternate" type="application/json+oembed" href="https://deerfield.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeerfield.edu%2Fathletics%2Fevents%2F2017%2F04%2Fsoftball-varsity-loses-to-taft-4%2F10244664%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://deerfield.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeerfield.edu%2Fathletics%2Fevents%2F2017%2F04%2Fsoftball-varsity-loses-to-taft-4%2F10244664%2F&#038;format=xml" />
+<link rel='prev' title='Softball: Varsity vs. Marianapolis' href='https://deerfield.edu/athletics/events/2017/05/softball-varsity-vs-marianapolis/10244891/' />
+<link rel='next' title='Track &amp; Field, Coed: Varsity vs. Choate' href='https://deerfield.edu/athletics/events/2017/05/track-field-coed-varsity-vs-choate/10244727/' />
+<link rel="canonical" href="https://deerfield.edu/athletics/events/2017/05/cycling-coed-varsity-vs-deerfield-road-race-canceled/10246015/" />
+<link rel='shortlink' href='https://deerfield.edu/?p=10246015' />
+<link rel="alternate" type="application/json+oembed" href="https://deerfield.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeerfield.edu%2Fathletics%2Fevents%2F2017%2F05%2Fcycling-coed-varsity-vs-deerfield-road-race-canceled%2F10246015%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://deerfield.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeerfield.edu%2Fathletics%2Fevents%2F2017%2F05%2Fcycling-coed-varsity-vs-deerfield-road-race-canceled%2F10246015%2F&#038;format=xml" />
 
 		<!-- lightbox -->
 		<script src="https://deerfield.edu/wp-content/themes/deerfield_1_3/js/modernizr.custom.js"></script>
@@ -129,7 +129,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 	</head>
 
 	
-	<body id="body" class="athletic-event-template-default single single-athletic-event postid-10244664">
+	<body id="body" class="athletic-event-template-default single single-athletic-event postid-10246015">
 
 		
 		
@@ -259,11 +259,11 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 			<li id="menu-item-10226832" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226832"><a href="https://deerfield.edu/athletics/teams/crew-boys/">Crew, Boys</a></li>
 			<li id="menu-item-10237879" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237879"><a href="https://deerfield.edu/athletics/teams/crew-girls/">Crew, Girls</a></li>
 			<li id="menu-item-10237889" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237889"><a href="https://deerfield.edu/athletics/teams/crew-coed/">Crew, Coed</a></li>
-			<li id="menu-item-10237904" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237904"><a href="https://deerfield.edu/athletics/teams/cycling-coed/">Cycling, Coed</a></li>
+			<li id="menu-item-10237904" class="menu-item menu-item-type-taxonomy menu-item-object-team current-athletic-event-ancestor current-menu-item level-3 menu-item-10237904"><a href="https://deerfield.edu/athletics/teams/cycling-coed/">Cycling, Coed</a></li>
 			<li id="menu-item-10226831" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226831"><a href="https://deerfield.edu/athletics/teams/golf-coed/">Golf, Coed</a></li>
 			<li id="menu-item-10226830" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226830"><a href="https://deerfield.edu/athletics/teams/lacrosse-boys/">Lacrosse, Boys</a></li>
 			<li id="menu-item-10237874" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237874"><a href="https://deerfield.edu/athletics/teams/lacrosse-girls/">Lacrosse, Girls</a></li>
-			<li id="menu-item-10226829" class="menu-item menu-item-type-taxonomy menu-item-object-team current-athletic-event-ancestor current-menu-item level-3 menu-item-10226829"><a href="https://deerfield.edu/athletics/teams/softball/">Softball</a></li>
+			<li id="menu-item-10226829" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226829"><a href="https://deerfield.edu/athletics/teams/softball/">Softball</a></li>
 			<li id="menu-item-10226849" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226849"><a href="https://deerfield.edu/athletics/teams/tennis-boys/">Tennis, Boys</a></li>
 			<li id="menu-item-10237875" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10237875"><a href="https://deerfield.edu/athletics/teams/tennis-girls/">Tennis, Girls</a></li>
 			<li id="menu-item-10226850" class="menu-item menu-item-type-taxonomy menu-item-object-team level-3 menu-item-10226850"><a href="https://deerfield.edu/athletics/teams/track-coed/">Track &#038; Field, Coed</a></li>
@@ -389,19 +389,24 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 
 				<div class="content-column main-column has-sidebar">
 
-					<article id="post-10244664" class="post-10244664 athletic-event type-athletic-event status-publish hentry location-home team-varsity-softball opponent-taft athletic-event-status-loss">
+					<article id="post-10246015" class="post-10246015 athletic-event type-athletic-event status-publish hentry location-home team-varsity-coed-cycling opponent-deerfield-road-race athletic-event-status-canceled">
 					
 						<header class="single-header">
 							
 							<h1 class="h-t">
-								Softball: Varsity loses to Taft							</h1>
+								Cycling, Coed: Varsity vs. Deerfield Road Race (canceled)							</h1>
 
 						</header>
 
 						<div class="content-block entry-content">
-							<p>The Big Green lost to a tough Taft team on Saturday afternoon in Deerfield. Trailing 1-0 through most of the game, Deerfield played solid defense to keep the game tight. The Taft bats came alive in the top of the 7th, scoring 4 runs to bring the score to 5-0.</p>
-<p>Deerfield combined for 8 hits, but they were unable to push a run across the plate in the loss.</p>
-<p>The Big Green looks to bounce back on the road at Ethel Walker on Wednesday.</p>
+							<p><strong>Start Times by Division:</strong></p>
+<p>Girls C: 3:00pm (25 minutes plus a lap)</p>
+<p>Boys C: 3:40pm (25 minutes plus a lap)</p>
+<p>Boys B: 4:10pm (30 minutes plus a lap)</p>
+<p>Girls A: 4:45pm (40 minutes plus a lap)</p>
+<p>Boys A: 5:30pm (40 minutes plus a lap)</p>
+<p><strong>Course Map:</strong></p>
+<p><a href="https://deerfield.edu/wp-content/uploads/2017/05/Cycling_Course-Map_5-6-17.png"><img class="alignnone wp-image-10246691 size-full" src="https://deerfield.edu/wp-content/uploads/2017/05/Cycling_Course-Map_5-6-17.png" alt="" width="1093" height="733" srcset="https://deerfield.edu/wp-content/uploads/2017/05/Cycling_Course-Map_5-6-17.png 1093w, https://deerfield.edu/wp-content/uploads/2017/05/Cycling_Course-Map_5-6-17-300x201.png 300w, https://deerfield.edu/wp-content/uploads/2017/05/Cycling_Course-Map_5-6-17-768x515.png 768w, https://deerfield.edu/wp-content/uploads/2017/05/Cycling_Course-Map_5-6-17-1024x687.png 1024w, https://deerfield.edu/wp-content/uploads/2017/05/Cycling_Course-Map_5-6-17-240x160.png 240w" sizes="(max-width: 1093px) 100vw, 1093px" /></a></p>
 						</div><!-- .entry-content -->
 						
 					</article>
@@ -418,18 +423,18 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 							
 															<li>
 									<span class="tab label">Teams </span>
-																			<a href="https://deerfield.edu/athletics/teams/varsity-softball/">
-											Softball: Varsity										</a><br />
+																			<a href="https://deerfield.edu/athletics/teams/varsity-coed-cycling/">
+											Cycling, Coed: Varsity										</a><br />
 																	</li>
 							
 															<li>
 									<span class="tab label">vs. </span>
-																			Taft										
+																			Deerfield Road Race										
 								</li>
 														
 							<li>
 								<span class="tab label">on </span>
-								April 22, 2017							</li>
+								May 6, 2017							</li>
 							
 															<li>
 									<span class="tab label">at </span>
@@ -443,17 +448,19 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 						<h4 class="heading">Posted by</h4>
 						<ul class="user-list">
 														<li class="user-badge">	
-			<a 	data-title=" " 
-			data-query='{"author_name":"jfunk"}'
+			<a 	data-title="Carly Barbato" 
+			data-query='{"author_name":"cbarbato"}'
 			class="department-load-link user-profile-link"
-			href="https://deerfield.edu/directory/staff/jfunk/" >
+			href="https://deerfield.edu/directory/staff/cbarbato/" >
 	
 		<div class="user-avatar user-badge-avatar" >
 			<img src="https://deerfield.edu/wp-content/uploads/2014/01/blank-avatar.png" width="32" height="32" alt="" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo avatar-default" /> 
 		</div>
 		<div class="user-info user-badge-info">
 			<p class="user-name" >
-				jfunk			</p>
+				Barbato, Carly			</p>
+						<p class="user-title" >
+				Sports Information Director			</p>
 					</div>
 
 			</a>	
@@ -474,7 +481,7 @@ var dfajax = {"ajaxurl":"https:\/\/deerfield.edu\/wp-admin\/admin-ajax.php","rat
 	        	
         		<ul id="quicknav_menu">
                                                        
-                                                            <li class="quicknav_item"><a href="/login?redirect_to=/athletics/events/2017/04/softball-varsity-loses-to-taft-4/10244664/" class="quicknav_btn" id="Login">Log In</a></li>
+                                                            <li class="quicknav_item"><a href="/login?redirect_to=/athletics/events/2017/05/cycling-coed-varsity-vs-deerfield-road-race-canceled/10246015/" class="quicknav_btn" id="Login">Log In</a></li>
                                                 
                         
 <!--                        <li class="quicknav_item"><a href="/connect" class="quicknav_btn" id="Social">Social</a></li> -->
@@ -544,7 +551,7 @@ var sb_instagram_js_options = {"sb_instagram_at":"218669987.97584da.9549820fdda3
 <script type='text/javascript' src='https://deerfield.edu/wp-content/themes/deerfield_1_3/js/jquery.filterRow.js?ver=20130831'></script>
 <script type='text/javascript' src='https://deerfield.edu/wp-includes/js/wp-embed.min.js?ver=39d6e75652c65728ed647f4d7b2e8623'></script>
       
-	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"683235856d","applicationID":"8444353","transactionName":"blBRNkcFXhAFUxAMWlcacgFBDV8NS0MNC1JVUB4DQQxcBhBZB0hQT1BdFg==","queueTime":0,"applicationTime":1282,"atts":"QhdSQA8fTR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"683235856d","applicationID":"8444353","transactionName":"blBRNkcFXhAFUxAMWlcacgFBDV8NS0MNC1JVUB4DQQxcBhBZB0hQT1BdFg==","queueTime":0,"applicationTime":1343,"atts":"QhdSQA8fTR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 
 </html>
 
