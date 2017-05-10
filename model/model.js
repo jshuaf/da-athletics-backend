@@ -10,7 +10,7 @@ exports.connect = () => mongoose.connect('mongodb://localhost:27017/da-athletics
 
 exports.addEvent = data => (new Event(data)).save();
 
-exports.findEvent = data => Event.findOne(data).exec();
+exports.findEvent = data => Event.findOne(data).lean().exec();
 
 exports.findEventsByDate = ((start, end) =>
 	Event.find({ date: { $lte: end, $gte: start, }, }).lean().exec()

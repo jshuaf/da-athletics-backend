@@ -15,11 +15,7 @@ module.exports.sendNotificationToAll = (notification) => {
 		console.log(devices.map(x => x._id));
 		return provider.send(notification, devices.map(x => x._id));
 	})
-	.then((response) => {
-		for (const prop in response) {
-			console.log(prop, response[prop]);
-		}
-	}).catch((err) => {
+	.catch((err) => {
 		console.log(err);
 	});
 };
@@ -28,11 +24,7 @@ module.exports.sendNotification = (notification, deviceIDs) => {
 	notification.topic = 'com.joshuafang.DAAthletics';
 	console.log('Notification being sent to devices ', notification, deviceIDs);
 	provider.send(notification, deviceIDs)
-	.then((response) => {
-		for (const prop in response) {
-			console.log(prop, response[prop]);
-		}
-	}).catch((err) => {
+	.catch((err) => {
 		console.log(err);
 	});
 };

@@ -101,6 +101,38 @@ app.get('/teams/all', (req, res) => {
 	});
 });
 
+const getTeamInfoSchema = {
+	teamID: Joi.string(),
+};
+
+app.get('/team/info', (req, res) => {
+	const { error, } = Joi.validate(req.query, getTeamInfoSchema, { presence: 'required', });
+	if (error) return res.status(400).end();
+	connected.then(() => model.findTeam({ _id: req.query.teamID, }))
+	.then((team) => {
+		res.status(200).json(team);
+	})
+	.catch((err) => {
+		console.log(err);
+	});
+});
+
+const getEventInfoSchema = {
+	eventID: Joi.string(),
+};
+
+app.get('/event/info', (req, res) => {
+	const { error, } = Joi.validate(req.query, getEventInfoSchema, { presence: 'required', });
+	if (error) return res.status(400).end();
+	connected.then(() => model.findEvent({ _id: parseInt(req.query.eventID, 10), }))
+	.then((event) => {
+		res.status(200).json(event);
+	})
+	.catch((err) => {
+		console.log(err);
+	});
+});
+
 const getEventDescriptionSchema = {
 	descriptionURL: Joi.string(),
 };
