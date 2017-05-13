@@ -101,7 +101,7 @@ module.exports.refreshEvents = ($) => {
 					eventData.status = 'Cancelled';
 				} else if (text.indexOf('Scrimmage') >= 0) {
 					eventData.status = 'Scrimmage';
-				} else if (text.length === 0) {
+				} else if (text.length === 0 || text === 'Live Stream') {
 					eventData.status = 'Unscored';
 				} else {
 					eventData.status = 'Other';
