@@ -13,6 +13,8 @@ const notify = require('./notify/notify.js');
 const co = require('co');
 const Promise = require('bluebird');
 const clean = require('./requests/clean');
+const winston = require('winston');
+require('./logs/logger');
 
 const provider = new apn.Provider({
 	token: {
@@ -42,7 +44,7 @@ setInterval(clean, 1000000);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true, }));
-app.use(morgan('dev'));
+app.use(morgan('dev', { stream: winston.stream, }));
 
 const getEventsByDateSchema = {
 	startDate: Joi.date(),
@@ -58,7 +60,7 @@ app.get('/events/date', (req, res) => {
 		res.status(200).json(data);
 	})
 	.catch((err) => {
-		console.log(err);
+		winston.error('Error when responding to event request by date.', err);
 	});
 });
 
@@ -75,7 +77,7 @@ app.get('/events/team', (req, res) => {
 		res.status(200).json(data);
 	})
 	.catch((err) => {
-		console.log(err);
+		winston.error('Error when responding to event request by team.', err);
 	});
 });
 
@@ -86,7 +88,7 @@ app.get('/programs/all', (req, res) => {
 		res.status(200).json(data);
 	})
 	.catch((err) => {
-		console.log(err);
+		winston.error('Error when responding to programs request.', err);
 	});
 });
 
@@ -97,7 +99,7 @@ app.get('/teams/all', (req, res) => {
 		res.status(200).json(data);
 	})
 	.catch((err) => {
-		console.log(err);
+		winston.error('Error when responding to teams request.', err);
 	});
 });
 
@@ -113,7 +115,7 @@ app.get('/team/info', (req, res) => {
 		res.status(200).json(team);
 	})
 	.catch((err) => {
-		console.log(err);
+		winston.error('Error when responding to teams info request.', err);
 	});
 });
 
@@ -129,7 +131,7 @@ app.get('/event/info', (req, res) => {
 		res.status(200).json(event);
 	})
 	.catch((err) => {
-		console.log(err);
+		winston.error('Error when responding to event request.', err);
 	});
 });
 
@@ -146,7 +148,7 @@ app.get('/events/description', (req, res) => {
 		res.status(200).json(results);
 	})
 	.catch((err) => {
-		console.log(err);
+		winston.error('Error when responding to event description request.', err);
 	});
 });
 
@@ -190,10 +192,9 @@ app.post('/device/add', (req, res) => {
 	}))
 	.then(() => { model.updateDevice(deviceData._id, deviceData); })
 	.then(() => {
-		console.log(req.body);
 		res.status(200).end();
 	}).catch((err) => {
-		console.log(err);
+		winston.error('Error when responding to device add request.', err);
 	});
 });
 
@@ -203,5 +204,5 @@ app.all('*', (req, res) => {
 
 const port = process.argv.includes('--production') ? 80 : 3000;
 app.listen(port, () => {
-	console.log('Listening.');
+	winston.debug('Server listening on port %d.', port);
 });

@@ -1,6 +1,7 @@
 const apn = require('apn');
 const model = require('../model/model');
 const co = require('co');
+const winston = require('winston');
 
 let provider;
 
@@ -12,20 +13,20 @@ module.exports.sendNotificationToAll = (notification) => {
 	notification.topic = 'com.joshuafang.DAAthletics';
 	model.findAllDevices()
 	.then((devices) => {
-		console.log(devices.map(x => x._id));
+		winston.info('Sending notification to %d devices.', devices.length, notification);
 		return provider.send(notification, devices.map(x => x._id));
 	})
 	.catch((err) => {
-		console.log(err);
+		winston.error('Error when sending notification to all devices.', err);
 	});
 };
 
 module.exports.sendNotification = (notification, deviceIDs) => {
 	notification.topic = 'com.joshuafang.DAAthletics';
-	console.log('Notification being sent to devices ', notification, deviceIDs);
+	winston.info('Notification being sent to devices.', { notification, devices: deviceIDs, });
 	provider.send(notification, deviceIDs)
 	.catch((err) => {
-		console.log(err);
+		winston.error('Error when sending notification to devices.', err);
 	});
 };
 
@@ -42,7 +43,6 @@ module.exports.notifyEvent = (event) => {
 		} else if (programParts.length === 2) {
 			teamName = `${programParts[1]} ${teamLevel} ${programParts[0]}`;
 		}
-		console.log(programParts, teamLevel, teamName);
 
 		let alert;
 		if (event.status === 'Win') {
@@ -67,6 +67,7 @@ module.exports.notifyEvent = (event) => {
 			badge: 1,
 		});
 		notification.payload.event = event._id;
+		winston.info('Event notification being sent to devices.', { notification, team: team.toObject(), });
 		return exports.sendNotification(notification, team.devicesWithNotifications);
 	});
 };

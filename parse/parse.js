@@ -5,6 +5,7 @@ const requests = require('../requests/requests');
 const co = require('co');
 const Promise = require('bluebird');
 const notify = require('../notify/notify');
+const winston = require('winston');
 
 module.exports.addTeamFromData = url => co(function* () {
 	const teamData = {};
@@ -42,7 +43,7 @@ module.exports.addTeamFromData = url => co(function* () {
 	yield program.save();
 	return team;
 }).catch((err) => {
-	console.log(err);
+	winston.error('Error adding team when parsing.', err);
 });
 
 module.exports.refreshEvents = ($) => {
@@ -126,8 +127,8 @@ module.exports.refreshEvents = ($) => {
 				}
 				return model.addEvent(eventData);
 			})
-			.then(savedEvent => console.log(`Event: date ${savedEvent.date}, team ${savedEvent.team} vs ${savedEvent.opponent}, ID ${savedEvent._id}, status ${savedEvent.status}`))
-			.catch(err => console.log(err));
+			.then(savedEvent => winston.verbose('Event saved', savedEvent.toObject()))
+			.catch(err => 	winston.error('Error adding new events.', err));
 	}, { concurrency: 30, });
 };
 
