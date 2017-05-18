@@ -127,7 +127,9 @@ module.exports.refreshEvents = ($) => {
 				}
 				return model.addEvent(eventData);
 			})
-			.then(savedEvent => winston.verbose('Event saved', savedEvent.toObject()))
+			.then((savedEvent) => {
+				winston.verbose('Event saved', JSON.parse(JSON.stringify(savedEvent.toObject())));
+			})
 			.catch(err => 	winston.error('Error adding new events.', err));
 	}, { concurrency: 30, });
 };

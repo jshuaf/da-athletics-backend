@@ -44,7 +44,8 @@ setInterval(clean, 1000000);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true, }));
-app.use(morgan('combined', { stream: winston.stream, }));
+morgan.token('body', req => (req.body ? JSON.stringify(req.body) : ''));
+app.use(morgan(':method :url :body :status :res[content-length] - :response-time ms', { stream: winston.stream, }));
 
 const getEventsByDateSchema = {
 	startDate: Joi.date(),
@@ -179,8 +180,8 @@ app.post('/device/add', (req, res) => {
 			}
 		}
 	})
-	.then(model.findDevice({ _id: deviceData._id, }))
-	.then(oldDevice => Promise.map(oldDevice.teamsWithNotifications, (teamID) => {
+	.then(() => model.findDevice({ _id: deviceData._id, }))
+	.then(oldDevice => !oldDevice || Promise.map(oldDevice.teamsWithNotifications, (teamID) => {
 		co(function* () {
 			if (deviceData.teamsWithNotifications.indexOf(teamID) < 0) {
 				const team = yield model.findTeam({ _id: teamID, });

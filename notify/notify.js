@@ -67,7 +67,10 @@ module.exports.notifyEvent = (event) => {
 			badge: 1,
 		});
 		notification.payload.event = event._id;
-		winston.info('Event notification being sent to devices.', { notification, team: team.toObject(), });
+		winston.info('Event notification being sent to devices.', {
+			notification,
+			team: JSON.parse(JSON.stringify(team.toObject())),
+		});
 		return exports.sendNotification(notification, team.devicesWithNotifications);
 	});
 };
