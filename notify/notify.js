@@ -25,6 +25,11 @@ module.exports.sendNotification = (notification, deviceIDs) => {
 	notification.topic = 'com.joshuafang.DAAthletics';
 	winston.info('Notification being sent to devices.', { notification, devices: deviceIDs, });
 	provider.send(notification, deviceIDs)
+	.then((response) => {
+		for (const prop in response) {
+			console.log(prop, response[prop]);
+		}
+	})
 	.catch((err) => {
 		winston.error('Error when sending notification to devices.', err);
 	});
