@@ -22,6 +22,7 @@ const provider = new apn.Provider({
 		keyId: 'YMB3K93PU3',
 		teamId: 'RPE83CLFGM',
 	},
+	production: true,
 });
 
 notify.configure(provider);
