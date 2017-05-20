@@ -23,12 +23,9 @@ module.exports.sendNotificationToAll = (notification) => {
 
 module.exports.sendNotification = (notification, deviceIDs) => {
 	notification.topic = 'com.joshuafang.DAAthletics';
-	winston.info('Notification being sent to devices.', { notification, devices: deviceIDs, });
 	provider.send(notification, deviceIDs)
 	.then((response) => {
-		for (const prop in response) {
-			console.log(prop, response[prop]);
-		}
+		winston.info('Notification sent to devices.', { notification, response, });
 	})
 	.catch((err) => {
 		winston.error('Error when sending notification to devices.', err);
@@ -72,10 +69,6 @@ module.exports.notifyEvent = (event) => {
 			badge: 1,
 		});
 		notification.payload.event = event._id;
-		winston.info('Event notification being sent to devices.', {
-			notification,
-			team: JSON.parse(JSON.stringify(team.toObject())),
-		});
 		return exports.sendNotification(notification, team.devicesWithNotifications);
 	});
 };
