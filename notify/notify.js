@@ -11,25 +11,27 @@ module.exports.configure = (p) => {
 
 module.exports.sendNotificationToAll = (notification) => {
 	notification.topic = 'com.joshuafang.DAAthletics';
-	model.findAllDevices()
-	.then((devices) => {
-		winston.info('Sending notification to %d devices.', devices.length, notification);
-		return provider.send(notification, devices.map(x => x._id));
-	})
-	.catch((err) => {
-		winston.error('Error when sending notification to all devices.', err);
-	});
+	model
+		.findAllDevices()
+		.then((devices) => {
+			winston.info('Sending notification to %d devices.', devices.length, notification);
+			return provider.send(notification, devices.map(x => x._id));
+		})
+		.catch((err) => {
+			winston.error('Error when sending notification to all devices.', err);
+		});
 };
 
 module.exports.sendNotification = (notification, deviceIDs) => {
 	notification.topic = 'com.joshuafang.DAAthletics';
-	provider.send(notification, deviceIDs)
-	.then((response) => {
-		winston.info('Notification sent to devices.', { notification, response, });
-	})
-	.catch((err) => {
-		winston.error('Error when sending notification to devices.', err);
-	});
+	provider
+		.send(notification, deviceIDs)
+		.then((response) => {
+			winston.info('Notification sent to devices.', { notification, response, });
+		})
+		.catch((err) => {
+			winston.error('Error when sending notification to devices.', err);
+		});
 };
 
 module.exports.notifyEvent = (event) => {

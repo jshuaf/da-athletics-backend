@@ -2,8 +2,7 @@ const model = require('./model');
 const co = require('co');
 const winston = require('winston');
 
-model.connect().then(model.findAllTeams)
-.then((teams) => {
+model.connect().then(model.findAllTeams).then((teams) => {
 	teams.forEach((team) => {
 		co(function* () {
 			winston.debug(team._id);
