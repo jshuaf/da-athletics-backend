@@ -100,7 +100,9 @@ module.exports.refreshEvents = ($) => {
 					case 'athletic-event-status': {
 						const descriptionURL = $(eventDetail).find('a').first().attr('href');
 						if (descriptionURL) eventData.descriptionURL = descriptionURL;
-						const scoreData = text.match(/\b(Win|Loss|Tie)\b - (\d+)-(\d+)/);
+						const scoreData =
+								text.match(/\b(Win|Loss|Tie)\b - (\d+)-(\d+)/) ||
+								text.match(/\b(Win|Loss|Tie)\b - DA (\d+) - \w+ (\d+)/);
 						if (scoreData) {
 							eventData.status = scoreData[1];
 							eventData.score1 = parseInt(scoreData[2], 10);
