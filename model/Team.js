@@ -6,11 +6,11 @@ mongoose.Promise = global.Promise;
 const Schema = mongoose.Schema;
 
 const TeamSchema = Schema({
-	level: { type: String, required: true, },
-	program: { type: Schema.Types.ObjectId, ref: 'Program', required: true, },
-	url: { type: String, unique: true, },
-	events: [{ type: Number, ref: 'Event', }, ],
-	devicesWithNotifications: [{ type: Schema.Types.String, ref: 'Device', }, ],
+	level: { type: String, required: true },
+	program: { type: Schema.Types.ObjectId, ref: 'Program', required: true },
+	url: { type: String, unique: true },
+	events: [{ type: Number, ref: 'Event' }],
+	devicesWithNotifications: [{ type: Schema.Types.String, ref: 'Device' }],
 });
 
 TeamSchema.plugin(uniqueValidator);

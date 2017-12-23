@@ -13,23 +13,23 @@ exports.get = (url, options = {}) => {
 		!index[url] ||
 		!fs.existsSync(path.join(__dirname, 'raw', `./${index[url]}.txt`))
 	) {
-		return co(function* () {
+		return co(function*() {
 			const response = yield axios.get(url);
 			const key = tools.random();
 			index[url] = key;
 			fs.writeFileSync(
 				path.join(__dirname, 'index.json'),
-				JSON.stringify(index)
+				JSON.stringify(index),
 			);
 			fs.writeFileSync(
 				path.join(__dirname, 'raw', `${key}.txt`),
-				response.data
+				response.data,
 			);
 			return response;
 		});
 	}
 	const data = fs.readFileSync(
-		path.join(__dirname, 'raw', `./${index[url]}.txt`)
+		path.join(__dirname, 'raw', `./${index[url]}.txt`),
 	);
 	return Promise.resolve({
 		data,
