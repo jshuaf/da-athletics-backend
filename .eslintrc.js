@@ -9,7 +9,6 @@ module.exports = {
 	},
 	extends: ['airbnb', 'prettier', 'prettier/react'],
 	rules: {
-		indent: ['error', 'tab'],
 		'no-tabs': 0,
 		'array-bracket-spacing': 0,
 		'no-use-before-define': 0,

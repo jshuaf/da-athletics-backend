@@ -1,34 +1,35 @@
 const winston = require('winston');
 const path = require('path');
+require('winston-daily-rotate-file');
 
 winston.configure({
 	transports: [
-		new winston.transports.File({
+		new winston.transports.DailyRotateFile({
 			name: 'info',
 			level: 'info',
-			filename: path.join(__dirname, 'info.log'),
+			filename: path.join(__dirname, 'info-%DATE%.log'),
 			json: true,
-			maxsize: 5242880, // 5MB
-			maxFiles: 5,
+			maxsize: '20m',
+			maxFiles: '14d',
 			colorize: false,
 		}),
-		new winston.transports.File({
+		new winston.transports.DailyRotateFile({
 			name: 'verbose',
 			level: 'verbose',
-			filename: path.join(__dirname, 'verbose.log'),
+			filename: path.join(__dirname, 'verbose-%DATE%.log'),
 			json: true,
-			maxsize: 5242880, // 5MB
-			maxFiles: 5,
+			maxsize: '20m',
+			maxFiles: '14d',
 			colorize: false,
 		}),
-		new winston.transports.File({
+		new winston.transports.DailyRotateFile({
 			name: 'error',
 			level: 'error',
-			filename: path.join(__dirname, 'error.log'),
+			filename: path.join(__dirname, 'error-%DATE%.log'),
 			handleExceptions: true,
 			json: false,
-			maxsize: 5242880, // 5MB
-			maxFiles: 5,
+			maxsize: '20m',
+			maxFiles: '14d',
 			colorize: false,
 		}),
 		new winston.transports.Console({

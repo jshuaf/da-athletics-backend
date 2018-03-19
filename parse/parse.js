@@ -1,7 +1,7 @@
 const cheerio = require('cheerio');
 const model = require('../model/model');
 const moment = require('moment');
-const requests = require('../requests/requests');
+const axios = require('axios');
 const co = require('co');
 const Promise = require('bluebird');
 const notify = require('../notify/notify');
@@ -10,7 +10,10 @@ const winston = require('winston');
 module.exports.addTeamFromData = url =>
 	co(function*() {
 		const teamData = {};
-		const response = yield requests.get(url);
+		const existingTeam = yield model.findTeam({ url });
+		if (existingTeam) return existingTeam;
+
+		const response = yield axios.get(url);
 		const $ = cheerio.load(response.data);
 		teamData.level = $('.h-menu-active')
 			.text()

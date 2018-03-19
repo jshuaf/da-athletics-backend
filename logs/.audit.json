@@ -1,0 +1,84 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/.audit.json",
+    "files": [
+        {
+            "date": 1521384730084,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/info-2018-03-18.log",
+            "hash": "bbc78a84da2798cc60d8b855e0ac183d"
+        },
+        {
+            "date": 1521384730087,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/verbose-2018-03-18.log",
+            "hash": "0da65c3ee47ccfcb109d006089b778ca"
+        },
+        {
+            "date": 1521384730088,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/error-2018-03-18.log",
+            "hash": "8df833fb60672349c321252241197565"
+        },
+        {
+            "date": 1521427198228,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/info-2018-03-18.log",
+            "hash": "6d645066da83201ec789fc2e5e7e3933"
+        },
+        {
+            "date": 1521427198233,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/verbose-2018-03-18.log",
+            "hash": "a29455fe85cf109dab018dd5ddf28443"
+        },
+        {
+            "date": 1521427198233,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/error-2018-03-18.log",
+            "hash": "93becf1f18e02db110ef25efd5e63084"
+        },
+        {
+            "date": 1521427489242,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/info-2018-03-18.log",
+            "hash": "30ae546e57c4aa7021bba9e11304c3e2"
+        },
+        {
+            "date": 1521427489245,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/verbose-2018-03-18.log",
+            "hash": "49c0b3e4937234b41cd0814b76c27fd6"
+        },
+        {
+            "date": 1521427489245,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/error-2018-03-18.log",
+            "hash": "2e0caa852adc15e54185cc052234205b"
+        },
+        {
+            "date": 1521427957645,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/info-2018-03-18.log",
+            "hash": "95bff6c355900d4cf4f56f543e1b8ba2"
+        },
+        {
+            "date": 1521427957649,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/verbose-2018-03-18.log",
+            "hash": "71cc2346b4158977da19707c1b1385c7"
+        },
+        {
+            "date": 1521427957650,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/error-2018-03-18.log",
+            "hash": "1c44ad82f0efd9da3dbd8939d2a2c255"
+        },
+        {
+            "date": 1521468344429,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/info-2018-03-19.log",
+            "hash": "27a0530f26c53e2cdb08039637c3d252"
+        },
+        {
+            "date": 1521468344435,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/verbose-2018-03-19.log",
+            "hash": "a249123a86edaed042f713e0eb0b42c0"
+        },
+        {
+            "date": 1521468344436,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/error-2018-03-19.log",
+            "hash": "d6315878083f73bc75ac9a4a9e198df9"
+        }
+    ]
+}
