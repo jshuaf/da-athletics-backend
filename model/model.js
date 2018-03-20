@@ -7,7 +7,9 @@ const Device = require('./Device');
 mongoose.Promise = global.Promise;
 
 exports.connect = () =>
-	mongoose.connect('mongodb://localhost:27017/da-athletics');
+	mongoose.connect('mongodb://localhost:27017/da-athletics', {
+		useMongoClient: true,
+	});
 
 exports.addEvent = data => new Event(data).save();
 
