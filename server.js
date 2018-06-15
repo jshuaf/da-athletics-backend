@@ -23,7 +23,9 @@ const refreshRecentAndUpcoming = () =>
 	connected.then(refresh.recent).then(refresh.upcoming);
 
 const app = express();
-const connected = model.connect();
+const connected = model.connect().catch(() => {
+	console.error('MongoDB not connected.');
+});
 
 refreshRecentAndUpcoming().then(() =>
 	setInterval(refreshRecentAndUpcoming, 100000),

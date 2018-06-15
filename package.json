@@ -24,7 +24,7 @@
 		"morgan": "^1.8.1",
 		"request": "^2.79.0",
 		"winston": "^2.3.1",
-		"winston-daily-rotate-file": "^3.0.0"
+		"winston-daily-rotate-file": "3.0.1"
 	},
 	"devDependencies": {
 		"babel-eslint": "^7.1.1",
