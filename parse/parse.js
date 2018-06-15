@@ -172,7 +172,7 @@ module.exports.refreshEvents = $ => {
 							currentEvent.status === 'Unscored' &&
 							eventData.status !== 'Unscored'
 						) {
-							notify.notifyEvent(eventData);
+							// notify.notifyEvent(eventData);
 						}
 						return model.updateEvent(eventData._id, { $set: eventData });
 					}
