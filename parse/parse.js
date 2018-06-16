@@ -40,7 +40,8 @@ module.exports.addTeamFromData = url =>
 			teamData.level = 'Junior Varsity';
 			teamData.url = url;
 		} else if (
-			url === 'https://deerfield.edu/athletics/teams/track-and-field-coed/ '
+			url ===
+			'https://deerfield.edu/athletics/teams/varsity-coed-track-and-field/'
 		) {
 			programName = 'Track & Field, Coed';
 			programURL =
