@@ -7,11 +7,10 @@ co(function*() {
 	yield model.connect();
 	const boysprogram = yield Program.find({ name: 'Crew, Boys' });
 	const boysteams = yield Team.find({ program: boysprogram._id });
-	yield boysteams.map(
-		team =>
-			function*() {
-				yield Team.remove({ _id: team._id });
-			},
+	yield boysteams.map(team =>
+		co(function*() {
+			yield Team.remove({ _id: team._id });
+		}),
 	);
 	yield Program.remove({ _id: boysprogram });
 
@@ -27,11 +26,10 @@ co(function*() {
 
 	const coedprogram = yield Program.find({ name: 'Crew, Coed' });
 	const coedteams = yield Team.find({ program: coedprogram._id });
-	yield coedteams.map(
-		team =>
-			function*() {
-				yield Team.remove({ _id: team._id });
-			},
+	yield coedteams.map(team =>
+		co(function*() {
+			yield Team.remove({ _id: team._id });
+		}),
 	);
 	yield Program.remove({ _id: coedprogram });
 
@@ -39,11 +37,10 @@ co(function*() {
 		name: 'Crew, Coed: Junior Varsity',
 	});
 	const coedteams2 = yield Team.find({ program: coedprogram2._id });
-	yield coedteams2.map(
-		team =>
-			function*() {
-				yield Team.remove({ _id: team._id });
-			},
+	yield coedteams2.map(team =>
+		co(function*() {
+			yield Team.remove({ _id: team._id });
+		}),
 	);
 	yield Program.remove({ _id: coedprogram2 });
 })
