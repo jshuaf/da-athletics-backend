@@ -31,12 +31,22 @@ module.exports.addTeamFromData = url =>
 		let programURL;
 		let term;
 		if (
-			url === 'https://deerfield.edu/athletics/teams/crew-coed-junior-varsity/'
+			url ===
+			'https://deerfield.edu/athletics/teams/rowing-coed-junior-varsity/'
 		) {
-			programName = 'Crew, Coed';
-			programURL = 'https://deerfield.edu/athletics/teams/crew-coed/';
+			programName = 'Rowing, Coed';
+			programURL = 'https://deerfield.edu/athletics/teams/rowing-coed/';
 			term = 'Spring';
 			teamData.level = 'Junior Varsity';
+			teamData.url = url;
+		} else if (
+			url === 'https://deerfield.edu/athletics/teams/track-and-field-coed/ '
+		) {
+			programName = 'Track & Field, Coed';
+			programURL =
+				'https://deerfield.edu/athletics/teams/track-and-field-coed/';
+			term = 'Spring';
+			teamData.level = 'Varsity';
 			teamData.url = url;
 		} else {
 			programName = $('.current-menu-item')
@@ -51,7 +61,6 @@ module.exports.addTeamFromData = url =>
 				.prev()
 				.text();
 		}
-
 		const existingProgram = yield model.findProgram({ url: programURL });
 		const program = yield existingProgram
 			? model.updateProgram(existingProgram._id, {
@@ -118,7 +127,11 @@ module.exports.refreshEvents = $ => {
 									.attr('href');
 								if (!teamURL) break;
 								const team = yield module.exports.addTeamFromData(teamURL);
-								eventData.team = team._id;
+								try {
+									eventData.team = team._id;
+								} catch (err) {
+									console.log(teamURL);
+								}
 								if (team.events.indexOf(eventData._id) < 0) {
 									team.events.push(eventData._id);
 									yield team.save();
