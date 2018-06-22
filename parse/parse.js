@@ -12,7 +12,6 @@ module.exports.addTeamFromData = url =>
 		const teamData = {};
 		const existingTeam = yield model.findTeam({ url });
 		if (existingTeam) return existingTeam;
-
 		const response = yield axios.get(url);
 		const $ = cheerio.load(response.data);
 		teamData.level = $('.h-menu-active')
@@ -73,6 +72,7 @@ module.exports.addTeamFromData = url =>
 		teamData.program = program._id;
 		const team = yield model.findOrAddTeam(teamData);
 		if (program.teams.indexOf(team._id) < 0) program.teams.push(team._id);
+		console.log(program.url);
 		yield program.save();
 		return team;
 	}).catch(err => {
@@ -154,6 +154,7 @@ module.exports.refreshEvents = $ => {
 								const scoreData =
 									text.match(/\b(Win|Loss|Tie)\b - (\d+)-(\d+)/) ||
 									text.match(/\b(Win|Loss|Tie)\b - DA (\d+) - \w+ (\d+)/);
+								eventData.statusText = text;
 								if (scoreData) {
 									eventData.status = scoreData[1];
 									eventData.score1 = parseInt(scoreData[2], 10);

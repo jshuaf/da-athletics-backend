@@ -52,6 +52,7 @@ app.get('/team/info', require('./routes/getTeamInfo'));
 app.get('/team/roster', require('./routes/getTeamRoster'));
 app.get('/event/info', require('./routes/getEventInfo'));
 app.get('/events/description', require('./routes/getEventDescription'));
+app.get('/up', require('./routes/isUp'));
 app.post('/device/add', require('./routes/addDevice'));
 
 app.all('*', (req, res) => res.status(400).end());

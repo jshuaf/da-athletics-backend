@@ -19,6 +19,9 @@ const EventSchema = Schema({
 		enum: ['Win', 'Loss', 'Tie', 'Cancelled', 'Unscored', 'Scrimmage', 'Other'],
 		required: true,
 	},
+	statusText: {
+		type: String,
+	},
 });
 
 EventSchema.plugin(uniqueValidator);
