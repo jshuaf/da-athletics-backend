@@ -6,6 +6,7 @@ const apn = require('apn');
 const bodyParser = require('body-parser');
 const notify = require('./notify/notify.js');
 const winston = require('winston');
+const Raven = require('raven');
 require('./logs/logger');
 
 notify.configure(
@@ -18,6 +19,10 @@ notify.configure(
 		production: true,
 	}),
 );
+
+Raven.config(
+	'https://41fc80a654834bb1b6b9e601afe71816@sentry.io/1229023',
+).install();
 
 const refreshRecentAndUpcoming = () =>
 	connected.then(refresh.recent).then(refresh.upcoming);
