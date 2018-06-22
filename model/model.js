@@ -3,6 +3,7 @@ const Team = require('./Team');
 const Event = require('./Event');
 const Program = require('./Program');
 const Device = require('./Device');
+const Roster = require('./Roster');
 
 mongoose.Promise = global.Promise;
 
@@ -59,6 +60,21 @@ exports.updateProgram = (id, toUpdate) =>
 	Program.findByIdAndUpdate(id, toUpdate, { new: true }).exec();
 
 exports.removeAllEvents = () => Event.remove({});
+
+exports.addRoster = data => new Roster(data).save();
+
+exports.updateRoster = (id, toUpdate) =>
+	Roster.findByIdAndUpdate(id, toUpdate, { new: true }).exec();
+
+exports.findRoster = data =>
+	Roster.findOne(data)
+		.lean()
+		.exec();
+
+exports.findRosterByTeamAndSeason = ({ teamID, season }) =>
+	Roster.findOne({ team: teamID, season })
+		.lean()
+		.exec();
 
 exports.addDevice = data => new Device(data).save();
 

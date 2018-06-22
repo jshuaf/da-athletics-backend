@@ -221,7 +221,7 @@ module.exports.teamRoster = $ => {
 		.find('td')
 		.map((i, el) => $(el).text())
 		.toArray()
-		.map(x => (x.indexOf('#') > 0 ? '#' : x.toLowerCase()));
+		.map(x => (x.indexOf('#') >= 0 ? 'number' : x.toLowerCase()));
 	const athletes = [];
 	rows.slice(1, -1).each((i, athleteRow) => {
 		const rowData = $(athleteRow)

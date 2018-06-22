@@ -10,7 +10,10 @@ module.exports = (req, res) => {
 	const { error } = Joi.validate(req.query, getEventsByTeamSchema, {
 		presence: 'required',
 	});
-	if (error) return res.status(400).end();
+	if (error) {
+		winston.error(error);
+		return res.status(400).end();
+	}
 	return model
 		.findEventsByTeam(req.query.teamID)
 		.then(data => {
@@ -21,4 +24,3 @@ module.exports = (req, res) => {
 			return res.status(400).end();
 		});
 };
-

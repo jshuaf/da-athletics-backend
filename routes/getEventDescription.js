@@ -12,7 +12,10 @@ module.exports = (req, res) => {
 	const { error } = Joi.validate(req.query, getEventDescriptionSchema, {
 		presence: 'required',
 	});
-	if (error) return res.status(400).end();
+	if (error) {
+		winston.error(error);
+		return res.status(400).end();
+	}
 	return axios
 		.get(req.query.descriptionURL)
 		.then(response => {

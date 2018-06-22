@@ -10,7 +10,10 @@ module.exports = (req, res) => {
 	const { error } = Joi.validate(req.query, getEventInfoSchema, {
 		presence: 'required',
 	});
-	if (error) return res.status(400).end();
+	if (error) {
+		winston.error(error);
+		return res.status(400).end();
+	}
 	return model
 		.findEvent({ _id: parseInt(req.query.eventID, 10) })
 		.then(event => {

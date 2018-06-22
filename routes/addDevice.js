@@ -15,7 +15,10 @@ module.exports = (req, res) => {
 	const { error } = Joi.validate(req.body, addDeviceSchema, {
 		presence: 'required',
 	});
-	if (error) return res.status(400).end();
+	if (error) {
+		winston.error(error);
+		return res.status(400).end();
+	}
 	const deviceData = Object.assign(req.body);
 	return Promise.resolve()
 		.then(() => {

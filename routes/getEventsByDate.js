@@ -11,7 +11,10 @@ module.exports = (req, res) => {
 	const { error } = Joi.validate(req.query, getEventsByDateSchema, {
 		presence: 'required',
 	});
-	if (error) return res.status(400).end();
+	if (error) {
+		winston.error(error);
+		return res.status(400).end();
+	}
 	return model
 		.findEventsByDate(req.query.startDate, req.query.endDate)
 		.then(data => {
