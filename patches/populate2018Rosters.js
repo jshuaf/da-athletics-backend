@@ -305,11 +305,11 @@ const newTeamData = [ { _id: '58f5eaeb7ffaa04314fb62c2',
 wrongTeamData.forEach((team) => {
 	Roster.findOne({team: team._id}).then((roster) => {
 		console.log('hi');
-		newTeam = newTeamData.filter(x => x.url == team.url)
+		const newTeam = newTeamData.filter(x => x.url == team.url)
 		return Roster.findByIdAndUpdate(roster._id, {team: newTeam._id})
 	}).then(() => {
 		console.log('done')
 	}).catch((err) => {
 		console.error(err)
 	})
-}
+})
