@@ -21,9 +21,9 @@ app.use(
 	),
 );
 
-app.get('/up', (req, res) => {
-	res.status(200).json({ up: true });
-});
+app.get('/up', require('./routes/isUp'));
+
+app.all('*', (req, res) => res.status(400).end());
 
 const port = process.argv.includes('--production') ? 80 : 3000;
 connected.then(() => {
