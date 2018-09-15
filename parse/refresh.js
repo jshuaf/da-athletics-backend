@@ -43,7 +43,7 @@ module.exports.rosters = co.wrap(function*() {
 				.toDate();
 			const currentRoster = yield model.findRoster({
 				team: team._id,
-				players,
+				season,
 			});
 			console.log(team.url);
 			if (currentRoster) {
