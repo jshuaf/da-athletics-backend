@@ -6,7 +6,6 @@ const apn = require('apn');
 const bodyParser = require('body-parser');
 const notify = require('./notify/notify.js');
 const winston = require('winston');
-const Raven = require('raven');
 require('./logs/logger');
 
 notify.configure(
@@ -20,21 +19,19 @@ notify.configure(
 	}),
 );
 
-Raven.config(
-	'https://41fc80a654834bb1b6b9e601afe71816@sentry.io/1229023',
-).install();
-
 const refreshRecentAndUpcoming = () =>
 	connected.then(refresh.recent).then(refresh.upcoming);
 
 const app = express();
 const connected = model.connect().catch(() => {
-	console.error('MongoDB not connected.');
+	winston.error('MongoDB not connected.');
 });
 
 refreshRecentAndUpcoming().then(() =>
 	setInterval(refreshRecentAndUpcoming, 100000),
-);
+).catch(() => {
+	winston.error('Could not refresh recent and upcoming scores.')
+});
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -46,7 +43,9 @@ app.use(
 	),
 );
 app.use((req, res, next) => {
-	connected.then(next);
+	connected.then(next).catch(() => {
+		winston.error("MongoDB not connected properly.")
+	});
 });
 
 app.get('/events/date', require('./routes/getEventsByDate'));
