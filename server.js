@@ -8,20 +8,6 @@ const notify = require('./notify/notify.js');
 const winston = require('winston');
 require('./logs/logger');
 
-notify.configure(
-	new apn.Provider({
-		token: {
-			key: 'APNsAuthKey_YMB3K93PU3.p8',
-			keyId: 'YMB3K93PU3',
-			teamId: 'RPE83CLFGM',
-		},
-		production: true,
-	}),
-);
-
-const refreshRecentAndUpcoming = () =>
-	connected.then(refresh.recent).then(refresh.upcoming);
-
 const app = express();
 const connected = model.connect().catch(() => {
 	winston.error('MongoDB not connected.');
@@ -34,17 +20,14 @@ app.use(
 		{ stream: winston.stream },
 	),
 );
-app.use((req, res, next) => {
-	connected.then(next).catch(() => {
-		winston.error("MongoDB not connected properly.")
-	});
+
+app.get('/up', (req, res) => {
+	res.status(200).json({ up: true });
 });
-
-app.get('/up', require('./routes/isUp'));
-
-app.all('*', (req, res) => res.status(400).end());
 
 const port = process.argv.includes('--production') ? 80 : 3000;
-app.listen(port, () => {
-	winston.debug('Server listening on port %d.', port);
-});
+connected.then(() => {
+	app.listen(port, () => {
+		winston.debug('Server listening on port %d.', port);
+	});
+})
