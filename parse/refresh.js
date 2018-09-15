@@ -38,7 +38,7 @@ module.exports.rosters = co.wrap(function*() {
 			const players = yield parse
 				.teamRoster(cheerio.load(response.data))
 				.filter(player => player.name !== '');
-			const season = moment(2019)
+			const season = moment({"year": 2019})
 				.startOf('year')
 				.toDate();
 			const currentRoster = yield model.findRoster({
