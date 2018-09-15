@@ -20,14 +20,17 @@ app.use(
 		{ stream: winston.stream },
 	),
 );
+app.use((req, res, next) => {
+	connected.then(next).catch(() => {
+		winston.error("MongoDB not connected properly.")
+	});
+});
 
 app.get('/up', require('./routes/isUp'));
 
 app.all('*', (req, res) => res.status(400).end());
 
 const port = process.argv.includes('--production') ? 80 : 3000;
-connected.then(() => {
-	app.listen(port, () => {
-		winston.debug('Server listening on port %d.', port);
-	});
-})
+app.listen(port, () => {
+	winston.debug('Server listening on port %d.', port);
+});
