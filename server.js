@@ -20,11 +20,7 @@ app.use(
 		{ stream: winston.stream },
 	),
 );
-app.use((req, res, next) => {
-	connected.then(next).catch(() => {
-		winston.error("MongoDB not connected properly.")
-	});
-});
+app.use((req, res, next) => connected.then(next));
 
 app.get('/up', require('./routes/isUp'));
 
