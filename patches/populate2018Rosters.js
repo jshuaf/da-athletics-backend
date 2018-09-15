@@ -306,7 +306,7 @@ model.connect().then(() => {
 	wrongTeamData.forEach((team) => {
 		Roster.findOne({team: team._id}).then((roster) => {
 			console.log('hi');
-			const newTeam = newTeamData.filter(x => x.url == team.url)
+			const newTeam = newTeamData.filter(x => x.url === team.url)[0]
 			return Roster.findByIdAndUpdate(roster._id, {team: newTeam._id})
 		}).then(() => {
 			console.log('done')
