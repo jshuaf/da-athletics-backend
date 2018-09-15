@@ -15,6 +15,7 @@ module.exports = (req, res) => {
 		winston.error(error);
 		return res.status(400).end();
 	}
+	console.log(req.query.teamID, req.query.season)
 	model
 		.findRosterByTeamAndSeason({
 			teamID: req.query.teamID,
