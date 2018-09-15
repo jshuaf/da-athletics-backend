@@ -27,14 +27,6 @@ const connected = model.connect().catch(() => {
 	winston.error('MongoDB not connected.');
 });
 
-refreshRecentAndUpcoming().then(() =>
-	setInterval(refreshRecentAndUpcoming, 100000),
-).catch(() => {
-	winston.error('Could not refresh recent and upcoming scores.')
-});
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 morgan.token('body', req => (req.body ? JSON.stringify(req.body) : ''));
 app.use(
 	morgan(
@@ -48,16 +40,7 @@ app.use((req, res, next) => {
 	});
 });
 
-app.get('/events/date', require('./routes/getEventsByDate'));
-app.get('/events/team', require('./routes/getEventsByTeam'));
-app.get('/programs/all', require('./routes/getAllPrograms'));
-app.get('/teams/all', require('./routes/getAllTeams'));
-app.get('/team/info', require('./routes/getTeamInfo'));
-app.get('/team/roster', require('./routes/getTeamRoster'));
-app.get('/event/info', require('./routes/getEventInfo'));
-app.get('/events/description', require('./routes/getEventDescription'));
 app.get('/up', require('./routes/isUp'));
-app.post('/device/add', require('./routes/addDevice'));
 
 app.all('*', (req, res) => res.status(400).end());
 

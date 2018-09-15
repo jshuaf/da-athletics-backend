@@ -34,6 +34,21 @@
             "date": 1536864348601,
             "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/error-2018-09-13.log",
             "hash": "fde3009ca8aa5fa31080642803729228"
+        },
+        {
+            "date": 1536975522520,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/info-2018-09-14.log",
+            "hash": "6393f02113ee1918b0d863d9e9d0bbab"
+        },
+        {
+            "date": 1536975522526,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/verbose-2018-09-14.log",
+            "hash": "ec2b97d373511157e71fce7f3e803a93"
+        },
+        {
+            "date": 1536975522527,
+            "name": "/Users/jfang19/Desktop/DA-Athletics-backend/logs/error-2018-09-14.log",
+            "hash": "e3e0fbb4d2aea79535cc5397093d128c"
         }
     ]
 }
