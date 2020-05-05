@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "author": "Joshua Fang",
   "license": "ISC",
@@ -23,7 +25,8 @@
     "mongoose-unique-validator": "^1.0.4",
     "morgan": "^1.8.1",
     "request": "^2.79.0",
-    "winston": "^2.3.1"
+    "winston": "^2.3.1",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -33,5 +36,6 @@
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0"
   },
-  "repository": {}
+  "repository": {},
+  "snyk": true
 }
