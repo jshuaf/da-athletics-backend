@@ -9,8 +9,8 @@
   "author": "Joshua Fang",
   "license": "ISC",
   "dependencies": {
-    "apn": "^2.1.4",
-    "axios": "^0.15.3",
+    "apn": "^2.2.0",
+    "axios": "^0.16.1",
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.1",
     "cheerio": "^0.22.0",
